@@ -31,14 +31,14 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/fundo_exemplo.png')">
+  <header class="masthead" style="background-image: url('../../web/pages/img/fundo_exemplo.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <span class="subhead">Conductor</span>
-            <h1 class="animated bounceInUp">Mariana Menezes</h1>
+          <div class="post-heading">
+            <h1 class="subheading dist" style="text-align: center;">Conductor</h1>
+            <h1 class="animated bounceInUp titulo" style="font-size: 100px;">Mariana Menezes</h1>
           </div>
         </div>
       </div>
@@ -47,12 +47,10 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto col-12 mt-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
-        <div class="clearfix col-sm-4 col-lg-4 col-md-4 mx-auto">
-          <a class="btn btn-primary float-right" href="about.php" style="">Saiba Mais &rarr;</a>
+      <div class="col-lg-10 col-md-10 mx-auto col-12 mt-3">
+        <p class="sobre">Aclamada pela crítica especializada como uma “jovem maestrina de memória prodigiosa” e com “amadurecimento artístico característico dos grandes mestres”, Mariana Menezes já se apresentou com as maiores orquestras brasileiras, como Orquestra Sinfônica do Estado de São Paulo (OSESP), Filarmônica de Minas Gerais, Orquestra Sinfônica do Theatro da Paz, Orquestra Sinfônica do Teatro Nacional Claudio Santoro, entre outras.</p>
+        <div class="clearfix col-sm-1 col-lg-3 col-md-8 mx-auto">
+          <a class="btn btn-primary float-right" href="pt/bio/" style="">Saiba Mais &rarr;</a>
         </div>
       </div>
     </div>
@@ -65,8 +63,8 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
           <div class="site-heading"><br>
-            <span class="subheading">"Hands down, one of the hardest-working musicians in Winnipeg...His versatility is truly astonishing”</span><br>
-            <h2>- Winnipeg Free Press</h2>
+            <span class="subheading">"Alguma citação”</span><br>
+            <h2> Mariana Menezes</h2>
           </div>
         </div>
       </div>
@@ -75,31 +73,35 @@
 
   <!-- Main Content -->
   <div class="clearfix col-lg-2 col-md-5 mx-auto">
-    <h1 style="text-align: center;">Concertos</h1>
+    <p style="text-align: center;">Concertos</p>
   </div> 
 
   <div class="card-group col-lg-10 col-md-10 mx-auto">
     <div class="card">
       <img class="card-img-top" src="../../web/pages/img/contact-bg.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-title">30/03/2020</p>
+        <p class="card-text">Local: Lorem ipsum..</p>
       </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="../../web/pages/img/contact-bg.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-title">30/03/2020</p>
+        <p class="card-text">Local: Lorem ipsum..</p>
       </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="../../web/pages/img/contact-bg.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-title">30/03/2020</p>
+        <p class="card-text">Local: Lorem ipsum..</p>
       </div>
     </div>
+  </div>
+  <br>
+  <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+    <a class="btn btn-primary float-right" href="../novidades/" style="">Mais Concertos</a>
   </div>
 
   <br>
@@ -109,8 +111,8 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
           <div class="site-heading"><br>
-            <span class="subheading">"Hands down, one of the hardest-working musicians in Winnipeg...His versatility is truly astonishing”</span><br>
-            <h2>- Winnipeg Free Press</h2>
+            <span class="subheading">"Alguma citação”</span><br>
+            <h2>Mariana Menezes</h2>
           </div>
         </div>
       </div>

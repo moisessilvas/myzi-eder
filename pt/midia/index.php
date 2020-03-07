@@ -21,8 +21,10 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Custom styles for this template -->
-  <link href="../../web/pages/css/clean-blog.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../web/pages/css/animate.css">
 </head>
 
 <body>
@@ -31,14 +33,14 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/fundo_exemplo.jpg')">
+  <header class="masthead" style="background-image: url('../../web/pages/img/midia.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Man must explore, and this is exploration at its greatest</h1>
-            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <h1 class="subheading dist" style="text-align: center;">Mídia</h1>
+            <h1 class="animated bounceInUp titulo" style="font-size: 100px;">Mariana Menezes</h1>
           </div>
         </div>
       </div>

@@ -17,6 +17,8 @@
 
   <!-- Custom styles for this template-->
   <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
 
 </head>
 
@@ -221,66 +223,81 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
-          <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Usuários</h1>
-
-          <div class="container">
-
-    <div class="card o-hidden border-0 shadow-lg my-5">
-      <div class="card-body p-0">
-        <!-- Nested Row within Card Body -->
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="p-5">
-              <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Criar uma Conta</h1>
-              </div>
-              <form class="user">
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="Nome">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Sobrenome">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
-                </div>
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Senha">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repetir Senha">
-                  </div>
-                </div>
-                <a href="login.html" class="btn btn-primary btn-user btn-block">
-                  Cadastrar
-                </a>
-                <hr>
-                <!--
-                <a href="index.html" class="btn btn-google btn-user btn-block">
-                  <i class="fab fa-google fa-fw"></i> Register with Google
-                </a>
-                <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                  <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                </a>-->
-              </form>
-              <hr>
-              <div class="text-center">
-                <a class="small" href="forgot-password.html">Esqueceu a Senha?</a>
-              </div>
-              <div class="text-center">
-                <a class="small" href="login.html">Já possui conta? Login!</a>
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Painel</h1>
+            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Novo Usuário</a>
+          </div>
+          
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Usuários</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>E-mail</th>
+                      <th style="text-align: center;">Mostrar</th>
+                      <th style="text-align: center;">Editar</th>
+                      <th style="text-align: center;">Excluir</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Nome</th>
+                      <th>E-mail</th>
+                      <th style="text-align: center;">Mostrar</th>
+                      <th style="text-align: center;">Editar</th>
+                      <th style="text-align: center;">Excluir</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Moisés Silva de Sousa</td>
+                      <td>moises_silva98@hotmail.com</td>
+                      <td style="text-align: center;">
+                        <a href="#" class="btn btn-info btn-circle">
+                          <i class="fas fa-info"></i>
+                        </a>
+                      </td>
+                      <td style="text-align: center;">
+                        <a href="#" class="btn btn-warning btn-circle">
+                          <i class="fas fa-cogs"></i>
+                        </a>
+                      </td>
+                      <td style="text-align: center;">
+                        <a href="#" class="btn btn-danger btn-circle">
+                          <i class="fas fa-trash"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Diego Oliveira</td>
+                      <td>diegommo@gmail.com</td>
+                      <td style="text-align: center;">
+                        <a href="#" class="btn btn-info btn-circle">
+                          <i class="fas fa-info"></i>
+                        </a>
+                      </td>
+                      <td style="text-align: center;">
+                        <a href="#" class="btn btn-warning btn-circle">
+                          <i class="fas fa-cogs"></i>
+                        </a>
+                      </td>
+                      <td style="text-align: center;">
+                        <a href="#" class="btn btn-danger btn-circle">
+                          <i class="fas fa-trash"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
 
         </div>
         <!-- /.container-fluid -->
@@ -332,6 +349,13 @@
 
   <!-- Custom scripts for all pages-->
   <script src="../js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="../vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../js/demo/datatables-demo.js"></script>
 
 </body>
 

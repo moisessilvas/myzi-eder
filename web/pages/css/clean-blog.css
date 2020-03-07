@@ -4,10 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
 
+@font-face {
+     font-family: pynionscript;
+     src: url('../../font/PinyonScript-Regular.ttf');
+}
+
 body {
   font-size: 20px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: pynionscript, cursive;
 }
 
 p {
@@ -17,6 +22,17 @@ p {
 
 p a {
   text-decoration: underline;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.dist{
+  padding-top: 110px;
+}
+
+.titulo{
+  font-weight: 800;
+  font-family: pynionscript, cursive;
+  font-size: 120px;
 }
 
 h1,
@@ -26,7 +42,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: pynionscript, cursive;
 }
 
 a {
@@ -192,6 +208,7 @@ header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
   color: white;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {

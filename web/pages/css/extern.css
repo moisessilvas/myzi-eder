@@ -1,3 +1,23 @@
+@font-face {
+     font-family: pynionscript;
+     src: url('../../font/PinyonScript-Regular.ttf');
+}
+
+.sobre-maior{
+  text-align: justify;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.sobre{
+  font-size: 27px;
+  text-align: center;
+  font-family: pynionscript;
+}
+
+p {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header.sub {
   margin-bottom: 50px;
   background: no-repeat center center;
