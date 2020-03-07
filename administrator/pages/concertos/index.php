@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Administração - Vídeos</title>
+  <title>Administração - Concertos</title>
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -26,7 +26,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <?php include 'side-menu.php';?>
+    <?php include '../../components/menulateral.php';?>
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
@@ -222,7 +222,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Vídeos</h1>
+          <h1 class="h3 mb-4 text-gray-800">Concertos</h1>
 
         </div>
         <!-- /.container-fluid -->
@@ -231,7 +231,7 @@
       <!-- End of Main Content -->
 
       <!-- Footer -->
-      <?php include 'footer.php';?>
+      <?php include '../../components/footer.php';?>
       <!-- End of Footer -->
 
     </div>

@@ -3,9 +3,9 @@
   <!-- Sidebar - Brand -->
   <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
     <div class="sidebar-brand-icon rotate-n-15">
-      <i class="fas fa-laugh-wink"></i>
+      <i class="fas fa-cogs"></i>
     </div>
-    <div class="sidebar-brand-text mx-3">Administração<sup></sup></div>
+    <div class="sidebar-brand-text mx-3"><sup></sup></div>
   </a>
 
   <!-- Divider -->
@@ -50,10 +50,10 @@
       <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">Gerenciar Utilidades</h6>
-          <a class="collapse-item" href="./admin/concerto.php">Concertos</a>
-          <a class="collapse-item" href="./admin/fotos.php">Fotos</a>
-          <a class="collapse-item" href="./admin/usuarios.php">Usuários</a>
-          <a class="collapse-item" href="./admin/videos.php">Vídeos</a>
+          <a class="collapse-item" href="concertos/">Concertos</a>
+          <a class="collapse-item" href="fotos/">Fotos</a>
+          <a class="collapse-item" href="usuarios/">Usuários</a>
+          <a class="collapse-item" href="videos/">Vídeos</a>
         </div>
       </div>
     </li>
