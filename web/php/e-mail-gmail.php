@@ -5,9 +5,10 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require '../../vendor/autoload.php';
+//require '../../vendor/autoload.php';
+require 'C:/xampp/htdocs/myzi-eder/vendor/autoload.php';
 
-    function envio_gmail($email, $titulo) {
+    function envio_gmail($email, $name, $subject, $text) {
         $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
         try {
             //Server settings
@@ -22,8 +23,8 @@ require '../../vendor/autoload.php';
 
             //Recipients
             $mail->setFrom('diegommobr@gmail.com', 'Diego');
-            $mail->addAddress($email, $titulo);    // Add a recipient
-            //$mail->addReplyTo('info@example.com', 'Information');
+            $mail->addAddress('emaildiegomo@gmail.com', "Website Contact");    // Add a recipient
+            $mail->addReplyTo($email, $name);
             //$mail->addCC('emaildiegomo@gmail.com'); //para testar
             //$mail->addBCC('bcc@example.com');
 
@@ -33,8 +34,8 @@ require '../../vendor/autoload.php';
 
             //Content
             $mail->isHTML(true);                                  // Set email format to HTML
-            $mail->Subject = 'Bem-vindo!';
-            $mail->Body    = 'Olá '.$titulo.', você foi cadastrado(a)';
+            $mail->Subject = $subject;
+            $mail->Body    = $text;
             //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
             $mail->send();
