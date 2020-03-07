@@ -8,20 +8,20 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Mariana Menezes</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../web/pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../../web/pages/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/clean-blog.css" rel="stylesheet">
-  <link href="css/extern.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/animate.css">
+  <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
+  <link href="../../web/pages/css/extern.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../web/pages/css/animate.css">
 
 </head>
 
@@ -31,7 +31,7 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/fundo_exemplo.png')">
+  <header class="masthead" style="background-image: url('../../web/pages/img/fundo_exemplo.png')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -60,7 +60,7 @@
 
   <br>
 
-  <header class="sub" style="background-image: url('img/contact-bg.png')">
+  <header class="sub" style="background-image: url('../../web/pages/img/contact-bg.png')">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
@@ -80,21 +80,21 @@
 
   <div class="card-group col-lg-10 col-md-10 mx-auto">
     <div class="card">
-      <img class="card-img-top" src="img/contact-bg.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../../web/pages/img/contact-bg.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="img/contact-bg.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../../web/pages/img/contact-bg.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="img/contact-bg.jpg" alt="Card image cap">
+      <img class="card-img-top" src="../../web/pages/img/contact-bg.jpg" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -104,7 +104,7 @@
 
   <br>
 
-  <header class="sub" style="background-image: url('img/contact-bg.png')">
+  <header class="sub" style="background-image: url('../../web/pages/img/contact-bg.png')">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
@@ -123,11 +123,11 @@
   <?php include '../components/footer.php'?>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
+  <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
+  <script src="../../web/pages/js/clean-blog.min.js"></script>
 
 
 </body>
