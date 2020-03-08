@@ -57,21 +57,17 @@
         <p>Reconhecida como uma das mais jovens maestrinas em destaque no atual cenário musical brasileiro, Mariana já esteve em atuação no pódio de grandes orquestras, como a Orquestra Sinfônica do Estado de São Paulo (OSESP) e a Orquestra Sinfônica de Heliópolis, na Sala São Paulo; e também a Orquestra da Costa Atlântica (Portugal), a Orquestra Sinfônica de Santo André, a Orquestra Sinfônica de João Pessoa, Orquestra Sinfônica do Teatro Nacional Cláudio Santoro e Orquestra Sinfônica do Theatro da Paz.</p>
 
         <p>Desde de 2016, Mariana é regente residente da Sociedade de Concertos de Brasília (SCB),  colaborando com projetos, programação e produção musical da instituição. Além disso, Mariana atuou como professora de Regência da Universidade de Brasília no ano de 2019 e gravou seu curso de regência em vídeo que será lançado em breve na plataforma digital Musicalll.</p>
-        <div class="col-lg-10 col-sm-12 col-md-10 mx-auto sobre-maior">
-        <table border="0">
-          <tr>
-            <td>
-              <a class="btn btn-primary float-right" href="curto.docx" style="">Pequena Biografia</a>
-            </td>
-            <td>
-              <a class="btn btn-primary float-right" href="medio.docx" style="">Média Biografia</a>
-            </td>
-            <td>
-              <a class="btn btn-primary float-right" href="grande.docx" style="">Grande Biografia</a>
-            </td>
-          </tr>
-        </table>
-      </div>
+        <div class="row justify-content-md-center">
+          <div class="col-sm">
+            <a class="btn btn-primary btn-block" href="curto.docx" style="">Pequena Biografia</a>
+          </div>
+          <div class="col-sm">
+            <a class="btn btn-primary btn-block" href="medio.docx" style="">Média Biografia</a>
+          </div>
+          <div class="col-sm">
+            <a class="btn btn-primary btn-block" href="grande.docx" style="">Grande Biografia</a>
+          </div>
+        </div>
    </div>
  </div>
 </div>
