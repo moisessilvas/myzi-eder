@@ -47,9 +47,20 @@
   <!-- Main Content -->
   <div class="container">
     <div class="row">
+      <div class="col-lg-2 col-md-2 justify-content-md-center">
+        <nav class="nav flex-column justify-content-center">
+          <a class="text-center nav-link" href="#brasil">Brasil</a>
+          <a class="text-center nav-link" href="#manitoba">University of Manitoba</a>
+          <a class="text-center nav-link" href="#unb">University of Brasília</a>
+          <a class="text-center nav-link" href="#escola-musica">Brasilia School of Music String Orchestra</a>
+          <a class="text-center nav-link" href="#outras-apresentacoes">Other concerts</a>
+          <a class="text-center nav-link" href="#festivais">Festivals, workshops and masterclasses</a>
+          <a class="text-center nav-link" href="#graduacao">Undergraduate program</a>
+        </nav>
+      </div>
       <div class="col-lg-10 col-md-10 mx-auto sobre-maior">
 
-        <div class="card">
+        <div class="card" id="brasil">
           <div class="card-body">
 
             <p><b>Repertoire conducted in Concerts at:</b></p>
@@ -107,7 +118,7 @@
           </div>
         </div>
         <br>
-        <div class="card">
+        <div class="card" id="manitoba">
           <div class="card-body">
 
             <p><b>Repertoire conducting at the University of Manitoba (2014 - 2015) </b></p>
@@ -137,7 +148,7 @@
           </div>
         </div>
         <br>
-        <div class="card">
+        <div class="card" id="unb">
           <div class="card-body">
 
             <p><b>Repertoire rehearsed with the Community Symphony Choir and the Orchestra of the University of Brasília as Assistant Conductor  </b></p>
@@ -164,7 +175,7 @@
           </div>
         </div>
         <br>
-        <div class="card">
+        <div class="card" id="escola-musica">
           <div class="card-body">
 
             <p><b>Repertoire conducted in concerts with Brasilia School of Music String Orchestra in 2010 </b></p>
@@ -189,7 +200,7 @@
           </div>
         </div>
         <br>
-        <div class="card">
+        <div class="card" id="outras-apresentacoes">
           <div class="card-body">
 
             <p><b>Relevant repertoire conducted in other concerts </b></p>
@@ -216,7 +227,7 @@
           </div>
         </div>
         <br>
-        <div class="card">
+        <div class="card" id="festivais">
           <div class="card-body">
 
             <p><b>Pieces Rehearsed during festivals, workshops and masterclasses </b></p>
@@ -253,7 +264,7 @@
           </div>
         </div>
         <br>
-        <div class="card">
+        <div class="card" id="graduacao">
           <div class="card-body">
             <p><b>Other pieces studied during the Undergraduate program </b></p>
 
@@ -275,8 +286,6 @@
     </div>
   </div>
 
-  <hr>
-
   <!-- Footer -->
   <?php include '../../web/components/footer.php';?>
 
@@ -286,7 +295,24 @@
 
   <!-- Custom scripts for this template -->
   <script src="../../web/pages/js/clean-blog.min.js"></script>
-
+  <script>
+    function scrollNav() {
+      $('.nav a').click(function(){  
+        //Toggle Class
+        $(".active").removeClass("active");      
+        $(this).closest('li').addClass("active");
+        var theClass = $(this).attr("class");
+        $('.'+theClass).parent('li').addClass('active');
+        //Animate
+        $('html, body').stop().animate({
+            scrollTop: $( $(this).attr('href') ).offset().top - 160
+        }, 400);
+        return false;
+      });
+      $('.scrollTop a').scrollTop();
+    }
+    scrollNav();
+  </script>
 </body>
 
 </html>
