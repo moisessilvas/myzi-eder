@@ -37,10 +37,12 @@
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
           <div class="post-heading">
-            <h1 class="subheading dist" style="text-align: center;">Mídia</h1>
-            <h1 class="animated bounceInUp titulo" style="font-size: 100px;">Mariana Menezes</h1>
+            <br><br><br><br><br>
+            <h1 class="animated bounceInUp titulo" style="font-size: 80px;">Mariana Menezes</h1>
+            <br>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">MÍDIA</h1>
           </div>
         </div>
       </div>
@@ -50,40 +52,33 @@
   <!-- Post Content -->
   <ul class="gallery_box">
   <li>
-    <a href="#0"><img src="https://picsum.photos/600/700/?random">
+    <a href="#0"><img src="../../web/pages/img/6.jpg" class="img-responsive">
     <div class="box_data">
-      <span>Ravi With Bike</span>
     </div></a>
   </li>
-    <li>
-    <a href="#0"><img src="https://picsum.photos/600/701/?random">
+  <li>
+    <a href="#0"><img src="../../web/pages/img/6.jpg">
     <div class="box_data">
-      <span>Ravi Singh</span>
     </div></a>
   </li>
-    <li>
-    <a href="#0"><img src="https://picsum.photos/600/702/?random">
+  <li>
+    <a href="#0"><img src="../../web/pages/img/6.jpg">
     <div class="box_data">
-      <span>White wall</span>
     </div></a>
   </li>
-      <li>
-    <a href="#0"><img src="https://picsum.photos/600/703/?random">
+  <li>
+    <a href="#0"><img src="../../web/pages/img/6.jpg">
     <div class="box_data">
-      <span>Green Tree</span>
     </div></a>
   </li>
-      <li style="    position: relative;
-    top: -134px;">
-    <a href="#0"><img src="https://picsum.photos/600/704/?random">
+  <li style="position: relative;top: -134px;">
+    <a href="#0"><img src="../../web/pages/img/6.jpg">
     <div class="box_data">
-      <span>Blue</span>
     </div></a>
   </li>
       <li>
-    <a href="#0"><img src="https://picsum.photos/600/705/?random">
+    <a href="#0"><img src="../../web/pages/img/6.jpg">
     <div class="box_data">
-      <span>Ravi</span>
     </div></a>
   </li>
   

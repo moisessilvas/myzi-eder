@@ -28,9 +28,9 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="font-family: exo;">
   <div class="container">
-    <a class="navbar-brand" href="">Mariana Menezes</a>
+    <a class="navbar-brand" href="" style="font-family: blenheim; margin-top: 3px;">Mariana Menezes</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fas fa-bars"></i>
@@ -78,14 +78,17 @@
 </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('./web/pages/img/fundo_exemplo.jpg')">
+
+  <header class="masthead" style="background-image: url('web/pages/img/inicio.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
           <div class="post-heading">
-            <h1 class="subheading dist" style="text-align: center;">Conductor</h1>
-            <h1 class="animated bounceInUp titulo" style="font-size: 100px;">Mariana Menezes</h1>
+            <br><br><br><br><br>
+            <h1 class="animated bounceInUp titulo" style="font-size: 80px;">Mariana Menezes</h1>
+            <br>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
           </div>
         </div>
       </div>
@@ -96,12 +99,6 @@
     <div class="row">
       <div class="col-lg-10 col-md-10 mx-auto col-12 mt-3">
         <p class="sobre">Aclamada pela crítica especializada como uma “jovem maestrina de memória prodigiosa” e com “amadurecimento artístico característico dos grandes mestres”, Mariana Menezes já se apresentou com as maiores orquestras brasileiras, como Orquestra Sinfônica do Estado de São Paulo (OSESP), Filarmônica de Minas Gerais, Orquestra Sinfônica do Theatro da Paz, Orquestra Sinfônica do Teatro Nacional Claudio Santoro, entre outras.</p>
-        <!--
-        <p>A mineira Mariana Menezes, natural de Uberaba, já esteve em atuação no pódio de grandes orquestras, como regente convidada da Orquestra Sinfônica do Estado de São Paulo (OSESP), Orquestra Sinfônica do Theatro da Paz, Orquestra Sinfônica de Santo André, Orquestra Sinfônica do Teatro Nacional Cláudio Santoro, Orquestra Sinfônica de Heliópolis, Orquestra Sinfônica de João Pessoa, entre outras.</p>
-
-        <p>Tendo suas primeiras experiências como regente aos 13 anos de idade, Mariana estudou com maestros de vários países, como Portugal, Japão, Reino Unido, Itália, Estônia, Argentina, Alemanha, Canadá e Estados Unidos. Completou sua formação com diversos cursos, masterclasses e oficinas com regentes de renome internacional, como Riccardo Muti (titular da Chicago Symphony Orchestra), Colin Metters (professor emérito da Royal Academy of Music de Londres), Arvo Volmer (Adelaide Symphony Orchestra, Austrália), Giancarlo Guerrero (Nashville Symphony e Cleveland Orchestra, EUA) e Osvaldo Ferreira (Orquestra Filarmónica Portuguesa). Atualmente com 30 anos de idade, Mariana é Mestre em Regência Orquestral pela University of Manitoba/Canada com Honras, Bacharel em Regência pela Universidade de Brasília, Licenciada em Música pelo Instituto Brasileiro de Educação Continuada e Especialista em Regência Orquestral pela Academia de Regência da OSESP sob a mentoria de Marin Al-sop. </p>
-
-        <p>Para além da ativa carreira em performance, Mariana foi também Professora de Regência da Universidade de Brasília - UnB no ano de 2019 e criou seu próprio curso de Regência em vídeo-aulas, que será lançado em breve.</p>-->
         <div class="clearfix col-sm-1 col-lg-3 col-md-8 mx-auto">
           <a class="btn btn-primary float-right" href="pt/bio/" style="">Saiba Mais &rarr;</a>
         </div>
@@ -111,63 +108,19 @@
 
   <br>
 
-  <header class="sub" style="background-image: url('./web/pages/img/fundo_exemplo.jpg')">
+  <header class="sub" style="background-image: url('../../web/pages/img/contact-bg.png')">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
           <div class="site-heading"><br>
-            <span class="subheading">Mariana Menezes</span><br>
-            <h2>- Winnipeg Free Press</h2>
+            <span class="subheading">"Fisicamente jovem, mas adulta artisticamente, provou que talento, estudos, dedicação e esforços resultam num amadurecimento artístico característico dos grandes mestres."</span><br><br>
+            <h2 style="font-family: poppins; text-align: right;"> Bohumil Med</h2>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <div class="clearfix col-lg-2 col-md-5 mx-auto">
-    <h1 style="text-align: center;">Concertos</h1>
-  </div> 
-
-  <div class="card-group col-lg-10 col-md-10 mx-auto">
-    <div class="card">
-      <img class="card-img-top" src="web/pages/img/contact-bg.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="web/pages/img/contact-bg.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="web/pages/img/contact-bg.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-    </div>
-  </div>
-
-  <br>
-
-  <header class="sub" style="background-image: url('web/pages/img/contact-bg.png')">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
-          <div class="site-heading"><br>
-            <span class="subheading">"Hands down, one of the hardest-working musicians in Winnipeg...His versatility is truly astonishing”</span><br>
-            <h2>- Winnipeg Free Press</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  
   <br>
 
   <!-- Footer -->
@@ -196,7 +149,7 @@
             <a href="#">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>

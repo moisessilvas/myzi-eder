@@ -9,10 +9,20 @@
      src: url('../../font/PinyonScript-Regular.ttf');
 }
 
+@font-face {
+     font-family: blenheim;
+     src: url('../../font/BlenheimSignature.ttf');
+}
+
+@font-face {
+     font-family: petra;
+     src: url('../../font/petrascriptefalternate.ttf');
+}
+
 body {
   font-size: 20px;
   color: #212529;
-  font-family: pynionscript, cursive;
+  font-family: blenheim;
 }
 
 p {
@@ -22,7 +32,7 @@ p {
 
 p a {
   text-decoration: underline;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: blenheim;
 }
 
 .dist{
@@ -30,9 +40,23 @@ p a {
 }
 
 .titulo{
-  font-weight: 800;
-  font-family: pynionscript, cursive;
-  font-size: 120px;
+  font-weight: 600;
+  /*font-family: pynionscript, cursive;
+  font-family: URW Chancery L, cursive;
+  font-family: Courier, monospace;
+  font-family: Verdana, sans-serif;*/
+  font-family: blenheim;
+  font-size: 75px;
+}
+
+.subtitulo{
+  font-weight: 500;
+  /*font-family: pynionscript, cursive;
+  font-family: URW Chancery L, cursive;
+  font-family: Courier, monospace;
+  font-family: Verdana, sans-serif;*/
+  font-family: poppins;
+  letter-spacing: 20px;
 }
 
 h1,
@@ -42,7 +66,11 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: pynionscript, cursive;
+  /*font-family: pynionscript, cursive;
+  font-family: URW Chancery L, cursive
+  font-family: Courier, monospace;
+  font-family: Source Sans Pro;*/
+  font-family: blenheim;
 }
 
 a {
@@ -51,7 +79,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #b88a16;
 }
 
 blockquote {
@@ -232,7 +260,7 @@ header.masthead .site-heading h1 {
 
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 1.1;
   display: block;
@@ -412,14 +440,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #610000;
+  border-color: #610000;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #b88a16 !important;
+  border-color: #b88a16 !important;
 }
 
 .btn-lg {

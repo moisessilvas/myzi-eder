@@ -34,10 +34,12 @@
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1 class="subheading dist" style="text-align: center;">Lista de Repertórios</h1>
-            <h1 class="animated bounceInUp titulo" style="font-size: 100px;">Mariana Menezes</h1>
+        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
+          <div class="post-heading">
+            <br><br><br><br><br>
+            <h1 class="animated bounceInUp titulo" style="font-size: 80px;">Mariana Menezes</h1>
+            <br>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">LISTA DE REPERTÓTIOS</h1>
           </div>
         </div>
       </div>
@@ -45,25 +47,24 @@
   </header>
 
   <!-- Main Content -->
-  <div class="container">
+  <div class="container" id="menu">
     <div class="row">
-      <div class="col-lg-2 col-md-2 justify-content-md-center">
+      <div class="col-lg-3 col-md-3 justify-content-md-center">
         <nav class="nav flex-column justify-content-center">
-          <a class="text-center nav-link" href="#brasil">Brasil</a>
-          <a class="text-center nav-link" href="#manitoba">University of Manitoba</a>
-          <a class="text-center nav-link" href="#unb">University of Brasília</a>
-          <a class="text-center nav-link" href="#escola-musica">Brasilia School of Music String Orchestra</a>
-          <a class="text-center nav-link" href="#outras-apresentacoes">Other concerts</a>
-          <a class="text-center nav-link" href="#festivais">Festivals, workshops and masterclasses</a>
-          <a class="text-center nav-link" href="#graduacao">Undergraduate program</a>
+          <a class="text-center nav-link letra" href="#brasil">Brasil</a>
+          <a class="text-center nav-link letra" href="#manitoba">University of Manitoba</a>
+          <a class="text-center nav-link letra" href="#unb">University of Brasília</a>
+          <a class="text-center nav-link letra" href="#escola-musica">Brasilia School of Music String Orchestra</a>
+          <a class="text-center nav-link letra" href="#outras-apresentacoes">Other concerts</a>
+          <a class="text-center nav-link letra" href="#festivais">Festivals, workshops and masterclasses</a>
+          <a class="text-center nav-link letra" href="#graduacao">Undergraduate program</a>
         </nav>
       </div>
-      <div class="col-lg-10 col-md-10 mx-auto sobre-maior">
+      <div class="col-lg-9 col-md-9 mx-auto sobre-maior">
 
         <div class="card" id="brasil">
-          <div class="card-body">
-
-            <p><b>Repertoire conducted in Concerts at:</b></p>
+          <div class="card-body repertorios">
+          <p><b>Repertoire conducted in Concerts at:</b></p>
             <ul>
               <li>São Paulo Symphony Orchestra (Brazil)</li>
               <li>University of Brasilia (as conducting teacher)</li>
@@ -76,11 +77,30 @@
               <li>João Pessoa Symphony Orchestra (Brazil)</li>
             </ul>
 
-            - L. V. BEETHOVEN Symphony no.4 <br>
+            <b>WAGNER</b><br>
+            - A Valquíria: Cavalgada das Valquírias <br>
+            - Siegfried: Murmúrios da Floresta <br>
+            - O Crepúsculo dos Deuses: Viagem de Siegfried pelo Reno SS<br>
+            - O Crepúsculo dos Deuses: Morte de Siegfried e Marcha Fúnebre <br>
+            - O Crepúsculo dos Deuses: Cena Final <br><br>
+
+            <b>BRAHMS</b><br>
+            - Tragic Overture <br>
+            - Variations on a Theme by Haydn <br>
+            - Symphony no.4 <br>
+            - Symphony no.2 <br><br>
+
+            <b>L. V. BEETHOVEN</b><br>
+             - Symphony no.4 <br>
+             - Egmont, Op.84, Leonore Overture No.3 <br><br>
+
+             <b>RACHMANINOV</b><br>
+             - Symphonic Dances <br>
+             - Piano Concerto (soloist Olga Kopylova) <br><br>
+
+
             - MENDELSSOHN A Midsummer Night's Dream Overture <br>
-            - BRAHMS Tragic Overture <br>
             - KODALY Galanta Dances <br>
-            - BRAHMS Variations on a Theme by Haydn <br>
             - WOLFGANG A. MOZART Don Giovanni, KV 527: Overture, The Magic Flute Overture <br>
             - LUDWIG VAN BEETHOVEN Egmont, Op.84, Leonore Overture No.3 <br>
             - CARL MARIA VON WEBER Der Freischutz, Op.77: Overture <br>
@@ -96,26 +116,19 @@
             - HAYDN Symphony nº 104 <br>
             - GRIEG Concerto for piano <br>
             - BOULEZ Le Marteau sans Maitre <br>
-            - RACHMANINOV - Symphonic Dances <br>
-            - RACHMANINOV - Piano Concerto (soloist Olga Kopylova) <br>
-            - BRAHMS - Symphony no.4 <br>
-            - BRAHMS - Symphony no.2 <br>
-            - WAGNER A Valquíria: Cavalgada das Valquírias <br>
-            - WAGNER Siegfried: Murmúrios da Floresta <br>
-            - WAGNER O Crepúsculo dos Deuses: Viagem de Siegfried pelo Reno WAGNER O
-            Crepúsculo dos Deuses: Morte de Siegfried e Marcha Fúnebre WAGNER O
-            Crepúsculo dos Deuses: Cena Final <br>
-            - RALPH VAUGHAN WILLIAMS  <br>
-            - The Lark Ascending <br>
+            - RALPH VAUGHAN WILLIAMS - The Lark Ascending <br>
             - J.S.BACH - Concerto in F minor for piano and orchestra <br>
             - G.BOTTESINI - Elegy in D Major <br>
             - G.F.HANDEL - Concerto for Harp and Orchestra <br>
             - CIBELLE J.Donza - Passárgada em Noites e Luzes <br> 
             - FANNY MENDELSSOHN HENSEL - Overture in C major <br>
-            - CECILE CHAMINADE <br>
-            - Concertino for flute and orchestra - AMY BEACH <br>
-            - Symphony in E minor <br>
+            - CECILE CHAMINADE - Concertino for flute and orchestra <br>
+            - AMY BEACH - Symphony in E minor <br>
           </div>
+          <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+            <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
+          </div>
+          <br>
         </div>
         <br>
         <div class="card" id="manitoba">
@@ -146,6 +159,10 @@
             - A.DVORAK - Symphony no. 8 Op. 88 <br>
 
           </div>
+          <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+            <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
+          </div>
+          <br>
         </div>
         <br>
         <div class="card" id="unb">
@@ -198,6 +215,10 @@
             </ul>
 
           </div>
+          <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+            <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
+          </div>
+          <br>
         </div>
         <br>
         <div class="card" id="outras-apresentacoes">
@@ -225,6 +246,10 @@
             </ul>
 
           </div>
+          <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+            <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
+          </div>
+        </br>
         </div>
         <br>
         <div class="card" id="festivais">
@@ -262,6 +287,10 @@
             </ul>
 
           </div>
+          <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+            <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
+          </div>
+          <br>
         </div>
         <br>
         <div class="card" id="graduacao">
@@ -280,6 +309,10 @@
             </ul>
 
           </div>
+          <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
+            <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
+          </div>
+          <br>
         </div>
 
       </div>
@@ -305,7 +338,7 @@
         $('.'+theClass).parent('li').addClass('active');
         //Animate
         $('html, body').stop().animate({
-            scrollTop: $( $(this).attr('href') ).offset().top - 160
+          scrollTop: $( $(this).attr('href') ).offset().top - 160
         }, 400);
         return false;
       });

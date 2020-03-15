@@ -31,14 +31,16 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/fundo_exemplo.jpg')">
+  <header class="masthead" style="background-image: url('../../web/pages/img/inicio.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
           <div class="post-heading">
-            <h1 class="subheading dist" style="text-align: center;">Conductor</h1>
-            <h1 class="animated bounceInUp titulo" style="font-size: 100px;">Mariana Menezes</h1>
+            <br><br><br><br><br>
+            <h1 class="animated bounceInUp titulo" style="font-size: 80px;">Mariana Menezes</h1>
+            <br>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
           </div>
         </div>
       </div>
@@ -50,7 +52,7 @@
       <div class="col-lg-10 col-md-10 mx-auto col-12 mt-3">
         <p class="sobre">Aclamada pela crítica especializada como uma “jovem maestrina de memória prodigiosa” e com “amadurecimento artístico característico dos grandes mestres”, Mariana Menezes já se apresentou com as maiores orquestras brasileiras, como Orquestra Sinfônica do Estado de São Paulo (OSESP), Filarmônica de Minas Gerais, Orquestra Sinfônica do Theatro da Paz, Orquestra Sinfônica do Teatro Nacional Claudio Santoro, entre outras.</p>
         <div class="clearfix col-sm-1 col-lg-3 col-md-8 mx-auto">
-          <a class="btn btn-primary float-right" href="pt/bio/" style="">Saiba Mais &rarr;</a>
+          <a class="btn btn-primary float-right" href="../bio/" style="">Saiba Mais &rarr;</a>
         </div>
       </div>
     </div>
@@ -63,15 +65,15 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 mx-auto" style="text-align: center;">
           <div class="site-heading"><br>
-            <span class="subheading">"Alguma citação”</span><br>
-            <h2> Mariana Menezes</h2>
+            <span class="subheading">"Fisicamente jovem, mas adulta artisticamente, provou que talento, estudos, dedicação e esforços resultam num amadurecimento artístico característico dos grandes mestres."</span><br>
+            <h4 style="font-family: poppins; text-align: right;"> Bohumil Med</h4>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Content -->
+  <!-- Main Content 
   <div class="clearfix col-lg-2 col-md-5 mx-auto">
     <p style="text-align: center;">Concertos</p>
   </div> 
@@ -119,6 +121,7 @@
     </div>
   </header>
   
+  -->
   <br>
 
   <!-- Footer -->

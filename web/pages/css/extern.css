@@ -3,25 +3,62 @@
      src: url('../../font/PinyonScript-Regular.ttf');
 }
 
+@font-face {
+     font-family: blenheim;
+     src: url('../../font/BlenheimSignature.ttf');
+}
+
+@font-face {
+     font-family: petra;
+     src: url('../../font/petrascriptefalternate.ttf');
+}
+
+@font-face {
+     font-family: exo;
+     src: url('../../font/Exo-Light.otf');
+}
+
+@font-face {
+     font-family: poppins;
+     src: url('../../font/Poppins-ExtraLight.otf');
+}
+
+.concerto{
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: poppins;
+}
+
+.repertorios{
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.letra{
+  text-align: right;
+  font-family: poppins;
+}
+
 .sobre-maior{
   text-align: justify;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: poppins;
 }
 
 .sobre{
   font-size: 27px;
   text-align: center;
-  font-family: pynionscript;
+  font-family: poppins;
+  font-size: 18px;
+  text-align: center;
 }
 
 p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: poppins;
 }
 
 header.sub {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #868e96;
+  background-color: #610000;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
@@ -71,12 +108,12 @@ header.sub .site-heading h1 {
 
 header.sub .page-heading .subheading,
 header.sub .site-heading .subheading {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 1.1;
   display: block;
   margin: -160px 0 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: poppins;
 }
 
 @media only screen and (min-width: 768px) {
@@ -141,7 +178,7 @@ img{ max-width:100%;}
     height: 438px; 
 }
 .gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
-.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,0,0,0.17); }
 .gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
 .gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
-.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+.gallery_box li:hover .box_data{ background:#ffc1075c}
