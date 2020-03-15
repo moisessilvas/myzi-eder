@@ -179,6 +179,8 @@ img::-moz-selection {
   }
 }
 
+
+
 @media only screen and (min-width: 992px) {
   #mainNav {
     transition: background-color 0.2s;
@@ -189,8 +191,8 @@ img::-moz-selection {
   #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
-    top: -67px;
-    transition: transform 0.2s;
+    top: -3px;
+    transition: transform 0.0s;
     border-bottom: 1px solid white;
     background-color: rgba(255, 255, 255, 0.9);
   }
@@ -209,6 +211,7 @@ img::-moz-selection {
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
+    top: -67px;
   }
 }
 

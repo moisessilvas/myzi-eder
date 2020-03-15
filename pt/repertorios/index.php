@@ -37,9 +37,9 @@
         <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
           <div class="post-heading">
             <br><br><br><br><br>
-            <h1 class="animated bounceInUp titulo" style="font-size: 80px;">Mariana Menezes</h1>
+            <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
             <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">LISTA DE REPERTÓTIOS</h1>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
           </div>
         </div>
       </div>

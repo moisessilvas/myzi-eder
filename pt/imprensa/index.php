@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Mariana Menezes</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../web/pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,8 +20,11 @@
 
   <!-- Custom styles for this template -->
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
+  <link href="../../web/pages/css/slick.css" rel="stylesheet">
+  <link href="../../web/pages/css/slick-theme.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="../../web/pages/css/card-info.css">
 
 </head>
 
@@ -38,9 +41,9 @@
         <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
           <div class="post-heading">
             <br><br><br><br><br>
-            <h1 class="animated bounceInUp titulo" style="font-size: 80px;">Mariana Menezes</h1>
+            <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
             <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">IMPRENSA</h1>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
           </div>
         </div>
       </div>
@@ -78,6 +81,69 @@
 
   <hr>
 
+  <section class="quotes">
+  <div class="bubble">
+    <blockquote>I refuse to accept the view that mankind is so tragically bound to the starless midnight of racism and war that the bright daybreak of peace and brotherhood can never become a reality... I believe that unarmed truth and unconditional love will have the final word.
+    </blockquote>
+    <div>
+    </div>
+    <cite> Martin Luther King, Jr.</cite> </div>
+  <div class="bubble">
+    <blockquote> Peace is not a relationship of nations. It is a condition of mind brought about by a serenity of soul. Peace is not merely the absence of war. It is also a state of mind. Lasting peace can come only to peaceful people.
+    </blockquote>
+    <div></div>
+    <cite> Jawaharlal Nehru</cite> </div>
+    <div class="bubble">
+    <blockquote> Forgiveness is not always easy. At times, it feels more painful than the wound we suffered, to forgive the one that inflicted it. And yet, there is no peace without forgiveness.
+    </blockquote>
+    <div></div>
+    <cite> Marianne Williamson</cite> </div>
+    <div class="bubble">
+    <blockquote>Of all our dreams today there is none more important - or so hard to realise - than that of peace in the world. May we never lose our faith in it or our resolve to do everything that can be done to convert it one day into reality. </blockquote>
+    <div></div>
+    <cite> Lester B. Pearson</cite> 
+  </div>
+  </section>
+
+  <hr>
+
+  <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="https://www.themanitoban.com/2015/09/music-to-her-ears/37842/" style="">Revista Manitoban</a>
+    </div>
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="https://enlace.org.br/2019/10/08/arte-que-aprimora-a-vida/" style="">Enlace</a>
+    </div>
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2019/08/27/regida-por-maestrina-orquestra-sinfonica-faz-concerto-com-composicoes-de-mulheres.ghtml" style="">G1</a>
+    </div>
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="https://oficinademusica.curitiba.pr.gov.br/noticias/aumenta-o-numero-de-mulheres-na-regencia-de-orquestras/417" style="">Oficina de Música</a>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="http://correiodaparaiba.com.br/cultura/musica/maestrinas-que-regem-a-sinfonica-de-joao-pessoa-hoje-falam-o-correio-dos-desafios/" style="">Correio da Paraíba</a>
+    </div>
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="https://www.em.com.br/app/noticia/cultura/2019/09/28/interna_cultura,1088590/regentes-falam-da-emocao-de-comandar-uma-orquestra-pela-primeira-vez.shtml" style="">Estado de Minas</a>
+    </div>
+    <div class="col-sm">
+      <a class="btn btn-primary btn-block" href="https://www.correiobraziliense.com.br/app/noticia/cidades/2017/08/18/interna_cidadesdf,618676/festival-reune-musicos-em-prol-de-instituicao-de-sao-sebastiao.shtml" style="">Correio Braziliense</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/jkfETzqEkU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <hr>
+
   <!-- Footer -->
   <?php include '../components/footer.php';?>
 
@@ -91,6 +157,48 @@
 
   <!-- Custom scripts for this template -->
   <script src="../../web/pages/js/clean-blog.min.js"></script>
+  <script src="../../web/pages/css/slick.min.js"></script>
+  <script src="../../web/pages/css/slick.js"></script>
+
+  <script type="text/javascript">
+    /*
+This is a super simple slider using Ken Wheeler's "Slick Slider." 
+It's responsive, swipable and light weight.
+
+Visit Ken's site for the source code and docs. 
+
+Source: https://kenwheeler.github.io/slick/
+
+*/
+
+
+/*
+The following executes Ken's Slick Slider with several options.
+*/
+
+$('.quotes').slick({
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 6000,
+  speed: 800,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+
+
+/*
+To prevent the flashing of unstyled content (FOUC) I created a class ".no-fouc"
+which hides the slider.  When everything is ready to roll, I simply remove the
+.no-fouc class from the slider section using the script below.  I placed the CSS snippet in the head of the HTML
+page so that it's loaded before other things for obvious reasons.  What about folks with JS turned off?  
+Well, I don't worry about them too much anymore.  Oh my.  I feel the heat from the flames already.  :) 
+*/
+
+$( document ).ready(function() {
+$('.no-fouc').removeClass('no-fouc');
+});
+  </script>
 
 </body>
 
