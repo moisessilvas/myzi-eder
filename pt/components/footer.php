@@ -12,7 +12,7 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a href="#">
+            <a href="https://www.facebook.com/amarianamenezes/" target="_blank">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -20,7 +20,7 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a href="#">
+            <a href="https://www.instagram.com/marianabsmenezes/" target="_blank">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>

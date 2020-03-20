@@ -79,7 +79,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #b88a16;
+  color: #510000;
 }
 
 blockquote {
@@ -200,13 +200,13 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #510000;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #510000;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -449,8 +449,8 @@ footer .copyright {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #b88a16 !important;
-  border-color: #b88a16 !important;
+  background-color: #510000 !important;
+  border-color: #510000 !important;
 }
 
 .btn-lg {

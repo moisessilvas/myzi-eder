@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-3 justify-content-md-center"></div>
       <div class="col-lg-9 col-md-9 justify-content-md-center">
-        <div class="card concerto">
+        <div class="card concerto repertorios">
           <div class="card-header">
             Madrigal de Brasília, Temporada 2020
           </div>

@@ -132,7 +132,7 @@
         </div>
         <br>
         <div class="card" id="manitoba">
-          <div class="card-body">
+          <div class="card-body repertorios">
 
             <p><b>Repertoire conducting at the University of Manitoba (2014 - 2015) </b></p>
 
@@ -166,7 +166,7 @@
         </div>
         <br>
         <div class="card" id="unb">
-          <div class="card-body">
+          <div class="card-body repertorios">
 
             <p><b>Repertoire rehearsed with the Community Symphony Choir and the Orchestra of the University of Brasília as Assistant Conductor  </b></p>
 
@@ -193,7 +193,7 @@
         </div>
         <br>
         <div class="card" id="escola-musica">
-          <div class="card-body">
+          <div class="card-body repertorios">
 
             <p><b>Repertoire conducted in concerts with Brasilia School of Music String Orchestra in 2010 </b></p>
 
@@ -222,7 +222,7 @@
         </div>
         <br>
         <div class="card" id="outras-apresentacoes">
-          <div class="card-body">
+          <div class="card-body repertorios">
 
             <p><b>Relevant repertoire conducted in other concerts </b></p>
 
@@ -253,7 +253,7 @@
         </div>
         <br>
         <div class="card" id="festivais">
-          <div class="card-body">
+          <div class="card-body repertorios">
 
             <p><b>Pieces Rehearsed during festivals, workshops and masterclasses </b></p>
 
@@ -294,7 +294,7 @@
         </div>
         <br>
         <div class="card" id="graduacao">
-          <div class="card-body">
+          <div class="card-body repertorios">
             <p><b>Other pieces studied during the Undergraduate program </b></p>
 
             <ul>

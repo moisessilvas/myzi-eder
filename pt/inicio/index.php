@@ -22,6 +22,7 @@
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
+  <link rel="stylesheet" href="../../web/pages/css/agency.css">
 
 </head>
 
@@ -120,9 +121,175 @@
       </div>
     </div>
   </header>
-  
-  -->
-  <br>
+-->
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Linha do Tempo</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Março de 2020</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Mariana é a Maestrina Residente do premiado e
+                  tradicional Madrigal de Brasília. A Residência Artística consiste em cinco
+                  semanas consecutivas de um trabalho extenso sobre o repertório coral do
+                  Sec. XX e XXI, culminando em um concerto da Série de Concertos Levino de
+                Alcântara, em Brasília</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2019</h4>
+                <a><h4 class="subheading" href=""></h4></a>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Em 2019, em um concerto de importância histórica para a Orquestra
+                  Sinfônica do Teatro Nacional Claudio Santoro (OSTNCS), Mariana faz o seu
+                debut com a orquestra.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2019</h4>
+                <h4 class="subheading"></h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Mariana assume o cargo temporário de Professora de Regência e Estruturação
+                  Musical da Universidade de Brasília, contribuindo para a formação de jovens
+                  músicos e regentes, e se dedicando a trazê-los para a realidade da carreira
+                artística em música.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2018</h4>
+                <h4 class="subheading"></h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Em 2018, Mariana abre a Temporada de Concertos da Orquestra Sinfônica do
+                Theatro da Paz em Belém do Pará e faz o seu debut com a orquestra.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2018</h4>
+                <a><h4 class="subheading" href=""></h4></a>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Mariana faz seu debut como Regente Convidada da Orquestra Sinfônica do
+                Estado de São Paulo - OSESP</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2016</h4>
+                <h4 class="subheading"></h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Nomeada Regente Residente da Sociedade de Concertos de Brasília a partir
+                  de 2016, Mariana passa atuar diretamente nos projetos e produções da
+                Instituição e na temporada de sua orquestra.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2016</h4>
+                <a><h4 class="subheading" href=""></h4></a>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Em debut com a Orquestra Sinfônica de Santo André e a Orquestra Sinfônica
+                  de João Pessoa, Mariana marca sua presença no pódio do movimento Mulheres
+                Regentes, de iniciativa da Maestrina Lígia Amadio.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2016</h4>
+                <h4 class="subheading"></h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Mariana é selecionada por Marin Alsop para integrar a primeira Academia de
+                  Regência da OSESP - Orquestra Sinfônica do Estado de São Paulo, onde recebe
+                  a mentoria de Marin e maestros convidados da orquestra durante todo o ano
+                de 2016.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2015</h4>
+                <a><h4 class="subheading" href=""></h4></a>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Agraciada com a Marcel Desautels Golden Medal, Mariana se forma no
+                  Mestrado em Performance de Regência Instrumental como aluna de maior
+                  desempenho acadêmico e artístico da Faculdade de Música da University of
+                Manitoba no ano de 2015.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4 style="font-family: blenheim"> 
+                Mariana <br>
+                <br>Menezes</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <?php include '../components/footer.php'?>
