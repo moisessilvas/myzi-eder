@@ -126,7 +126,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Linha do Tempo</h2>
+        <h2 class="section-heading text-uppercase">Linha do Tempo</h2><br>
       </div>
     </div>
     <div class="row">
@@ -138,7 +138,7 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>Março de 2020</h4>
+                <h4>2020</h4>
               </div>
               <div class="timeline-body">
                 <p class="text-muted">Mariana é a Maestrina Residente do premiado e
@@ -151,7 +151,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="../../web/pages/img/foto1.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -161,13 +161,13 @@
               <div class="timeline-body">
                 <p class="text-muted">Em 2019, em um concerto de importância histórica para a Orquestra
                   Sinfônica do Teatro Nacional Claudio Santoro (OSTNCS), Mariana faz o seu
-                debut com a orquestra.</p>
+                debut com a orquestra. <a href="https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2019/08/27/regida-por-maestrina-orquestra-sinfonica-faz-concerto-com-composicoes-de-mulheres.ghtml" target="_blank">G1</a></p>
               </div>
             </div>
           </li>
           <li>
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="../../web/pages/img/midia1.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -184,7 +184,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="../../web/pages/img/foto4.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -193,13 +193,13 @@
               </div>
               <div class="timeline-body">
                 <p class="text-muted">Em 2018, Mariana abre a Temporada de Concertos da Orquestra Sinfônica do
-                Theatro da Paz em Belém do Pará e faz o seu debut com a orquestra.</p>
+                <a href="http://www.secult.pa.gov.br/noticia/concerto-com-maestria-das-mulheres-da-m%C3%BAsica-l%C3%ADrica-pelo-dia-da-mulher" target="_blank">Theatro da Paz em Belém do Pará</a>e faz o seu debut com a orquestra.</p>
               </div>
             </div>
           </li>
           <li>
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="../../web/pages/img/foto2.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -208,13 +208,13 @@
               </div>
               <div class="timeline-body">
                 <p class="text-muted">Mariana faz seu debut como Regente Convidada da Orquestra Sinfônica do
-                Estado de São Paulo - OSESP</p>
+                Estado de São Paulo - <a href="http://www.osesp.art.br/concertoseingressos/concerto.aspx?IDApresentacao=6737" target="_blank">OSESP</a></p>
               </div>
             </div>
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="../../web/pages/img/foto5.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -230,7 +230,7 @@
           </li>
           <li>
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="../../web/pages/img/foto3.jpg" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -240,68 +240,69 @@
               <div class="timeline-body">
                 <p class="text-muted">Em debut com a Orquestra Sinfônica de Santo André e a Orquestra Sinfônica
                   de João Pessoa, Mariana marca sua presença no pódio do movimento Mulheres
-                Regentes, de iniciativa da Maestrina Lígia Amadio.</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2016</h4>
-                <h4 class="subheading"></h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">Mariana é selecionada por Marin Alsop para integrar a primeira Academia de
-                  Regência da OSESP - Orquestra Sinfônica do Estado de São Paulo, onde recebe
-                  a mentoria de Marin e maestros convidados da orquestra durante todo o ano
-                de 2016.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2015</h4>
-                <a><h4 class="subheading" href=""></h4></a>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">Agraciada com a Marcel Desautels Golden Medal, Mariana se forma no
-                  Mestrado em Performance de Regência Instrumental como aluna de maior
-                  desempenho acadêmico e artístico da Faculdade de Música da University of
-                Manitoba no ano de 2015.</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4 style="font-family: blenheim"> 
-                Mariana <br>
-                <br>Menezes</h4>
+                  Regentes, de iniciativa da Maestrina Lígia Amadio. <a href="http://correiodaparaiba.com.br/cultura/musica/maestrinas-que-regem-a-sinfonica-de-joao-pessoa-hoje-falam-o-correio-dos-desafios/
+                  " target="_blank">Correio da Paraíba </a></p>
+                </div>
               </div>
             </li>
-          </ul>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2016</h4>
+                  <h4 class="subheading"></h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Mariana é selecionada por Marin Alsop para integrar a primeira Academia de
+                    Regência da OSESP - Orquestra Sinfônica do Estado de São Paulo, onde recebe
+                    a mentoria de Marin e maestros convidados da orquestra durante todo o ano
+                    de 2016. <a href="https://news.umanitoba.ca/grad-student-awarded-international-conducting-fellowship/" target="_blank">University of Manitoba</a></p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2015</h4>
+                    <a><h4 class="subheading" href=""></h4></a>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Agraciada com a Marcel Desautels Golden Medal, Mariana se forma no
+                      Mestrado em Performance de Regência Instrumental como aluna de maior
+                      desempenho acadêmico e artístico da Faculdade de Música da University of
+                    Manitoba no ano de 2015.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4 style="font-family: blenheim"> 
+                    Mariana <br>
+                    <br>Menezes</h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <!-- Footer -->
-  <?php include '../components/footer.php'?>
+      <!-- Footer -->
+      <?php include '../components/footer.php'?>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
-  <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
+      <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="../../web/pages/js/clean-blog.min.js"></script>
+      <!-- Custom scripts for this template -->
+      <script src="../../web/pages/js/clean-blog.min.js"></script>
 
 
-</body>
+    </body>
 
-</html>
+    </html>
