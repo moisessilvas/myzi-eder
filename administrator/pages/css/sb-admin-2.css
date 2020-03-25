@@ -80,6 +80,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #610000;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -159,7 +160,7 @@ sup {
 }
 
 a {
-  color: #4e73df;
+  color: #610000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2255,14 +2256,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #610000;
+  border-color: #610000;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #2e59d9;
-  border-color: #2653d4;
+  background-color: #610000;
+  border-color: #610000;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -9667,8 +9668,8 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-color: #610000;
+  background-image: linear-gradient(180deg, #610000 10%, #610000 100%);
   background-size: cover;
 }
 
@@ -10584,19 +10585,19 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800");
+  background: url("../../../web/pages/img/foto7.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-register-image {
-  background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
+  background: url("../../../web/pages/img/foto6.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-password-image {
-  background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");
+  background: url("../../../web/pages/img/foto7.jpg");
   background-position: center;
   background-size: cover;
 }

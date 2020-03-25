@@ -4,22 +4,22 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
 
-@font-face {
-     font-family: pynionscript;
-     src: url('../../font/PinyonScript-Regular.ttf');
-}
+ @font-face {
+   font-family: pynionscript;
+   src: url('../../font/PinyonScript-Regular.ttf');
+ }
 
-@font-face {
-     font-family: blenheim;
-     src: url('../../font/BlenheimSignature.ttf');
-}
+ @font-face {
+   font-family: blenheim;
+   src: url('../../font/BlenheimSignature.ttf');
+ }
 
-@font-face {
-     font-family: petra;
-     src: url('../../font/petrascriptefalternate.ttf');
-}
+ @font-face {
+   font-family: petra;
+   src: url('../../font/petrascriptefalternate.ttf');
+ }
 
-body {
+ body {
   font-size: 20px;
   color: #212529;
   font-family: blenheim;
@@ -158,6 +158,22 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 
+.tentativa {
+  display: initial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+@media only screen and (max-width: 576px){
+  .tentativa{
+    display: initial;
+    margin-top: 35px;
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;
@@ -177,9 +193,28 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     color: rgba(255, 255, 255, 0.8);
   }
+
+  .fixed-bg {
+    /* The background image */
+    background-image: url("../img/bio1.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  }
+
 }
-
-
 
 @media only screen and (min-width: 992px) {
   #mainNav {
@@ -214,6 +249,7 @@ img::-moz-selection {
     top: -67px;
   }
 }
+
 
 header.masthead {
   margin-bottom: 50px;

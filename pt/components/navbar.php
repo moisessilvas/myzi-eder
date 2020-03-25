@@ -14,9 +14,6 @@
           <a class="nav-link" href="../bio/">Biografia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../midia/">Mídia</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="../repertorios/">Repertórios</a>
         </li>
         <li class="nav-item">
@@ -24,6 +21,15 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../novidades/">Concertos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mídia
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../imagens/">Imagens</a>
+            <a class="dropdown-item" href="../videos/">Vídeos</a>
+          </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

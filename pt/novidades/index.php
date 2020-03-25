@@ -22,6 +22,7 @@
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
+  <link rel="stylesheet" href="../../web/pages/css/navbar-bio.css">
 
 </head>
 
@@ -31,27 +32,14 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/12.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
-          <div class="post-heading">
-            <br><br><br><br><br>
-            <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
-            <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
+  <img src="../../web/pages/img/12.jpg" class="tentativa">
+  <br>
   <!-- Main Content -->
+  <h2 style="text-align: center; font-family: poppins;">Concertos</h2>
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-md-3 justify-content-md-center"></div>
-      <div class="col-lg-9 col-md-9 justify-content-md-center">
+      <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
+      <div class="col-lg-10 col-md-10 justify-content-md-center">
         <div class="card concerto repertorios">
           <div class="card-header">
             Madrigal de Brasília, Temporada 2020

@@ -22,6 +22,7 @@
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
+  <link rel="stylesheet" href="../../web/pages/css/navbar-bio.css">
 </head>
 
 <body>
@@ -30,26 +31,14 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/biografia.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
-          <div class="post-heading">
-            <br><br><br><br><br>
-            <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
-            <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <img src="../../web/pages/img/bio1.jpg" class="tentativa">
 
-  <!-- Main Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 col-md-10 mx-auto sobre-maior">
+      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 sobre-maior"></div>
+      <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 sobre-maior" style="background-color: #ffffffe8;">
+        <br>
+        <h2 style="text-align: center; font-family: poppins;">Biografia</h2>
         <p>Mariana Menezes é natural de Uberaba, Minas Gerais, onde iniciou seus estudos musicais aos seis anos de idade, formando-se em flauta transversal pelo Conservatório Estadual de Música Renato Frateschi. É bacharel em música com habilitação em regência pela Universidade de Brasília, mestre em regência orquestral pela University of Manitoba, Canadá, e possui  especialização em regência pela Academia de Regência da OSESP - Orquestra Sinfônica do Estado de São Paulo.</p>
 
         <p>Tendo suas primeiras experiências como regente aos 13 anos de idade, Mariana estudou com maestros de vários países, como Portugal, Japão, Reino Unido, Itália, Estônia, Argentina, Alemanha e Estados Unidos. Completou sua formação com diversos cursos, masterclasses e oficinas com regentes de renome internacional, como Riccardo Muti (titular da Chicago Symphony Orchestra), Colin Metters (professor emérito da Royal Academy of Music de Londres), Arvo Volmer (Adelaide Symphony Orchestra, Austrália), Giancarlo Guerrero (Nashville Symphony e Cleveland Orchestra, EUA) e Neil Thomson (Orquestra Filarmônica de Goiás). Em 2016, Mariana foi a única mulher selecionada na classe de regência do competitivo Festival Internacional de Inverno de Campos do Jordão.</p>
@@ -68,21 +57,22 @@
           <div class="col-sm">
           </div>
         </div>
-   </div>
- </div>
-</div>
+        <br>
+      </div>
+    </div>
+  </div>
 
-<hr>
+  <hr>
 
 <!-- Footer -->
-<?php include '../components/footer.php';?>
+  <?php include '../components/footer.php';?>
 
-<!-- Bootstrap core JavaScript -->
-<script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
-<script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
+  <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Custom scripts for this template -->
-<script src="../../web/pages/js/clean-blog.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="../../web/pages/js/clean-blog.min.js"></script>
 
 </body>
 

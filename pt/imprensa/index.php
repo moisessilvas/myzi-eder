@@ -25,6 +25,7 @@
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
   <link rel="stylesheet" type="text/css" href="../../web/pages/css/card-info.css">
+  <link rel="stylesheet" href="../../web/pages/css/navbar-bio.css">
 
 </head>
 
@@ -34,6 +35,8 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
+  <img src="../../web/pages/img/fale.jpg" class="tentativa">
+  <!--
   <header class="masthead" style="background-image: url('../../web/pages/img/fale.jpg')">
     <div class="overlay"></div>
     <div class="container">
@@ -49,8 +52,9 @@
       </div>
     </div>
   </header>
-
+  -->
   <!-- Main Content -->
+  <h2 style="text-align: center; font-family: poppins;">Imprensa</h2>
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-md-10 mx-auto sobre-maior">
@@ -138,9 +142,6 @@
 
   <hr>
 
-  <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
-    <iframe width="720" height="480" src="https://www.youtube.com/embed/jkfETzqEkU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
 
   <hr>
 

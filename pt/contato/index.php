@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Mariana Menezes</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../web/pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +22,7 @@
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
+  <link rel="stylesheet" href="../../web/pages/css/navbar-bio.css">
 
 </head>
 
@@ -30,22 +31,7 @@
   <!-- Navigation -->
   <?php include '../components/navbar.php';?>
 
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/contato.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
-          <div class="post-heading">
-            <br><br><br><br><br>
-            <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
-            <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <img src="../../web/pages/img/contato.jpg" class="tentativa">
 
   <!-- Main Content -->
   <div class="container">

@@ -22,6 +22,7 @@
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="../../web/pages/css/navbar-bio.css">
 </head>
 
 <body>
@@ -30,22 +31,9 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../web/pages/img/repertorios.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-8 col-sm-8 mx-auto">
-          <div class="post-heading">
-            <br><br><br><br><br>
-            <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
-            <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
+  <img src="../../web/pages/img/repertorios.jpg" class="tentativa">
+  <br><br>
+  <h2 style="text-align: center; font-family: poppins;">Lista de Repertórios</h2><br>
   <!-- Main Content -->
   <div class="container" id="menu">
     <div class="row">
@@ -98,32 +86,85 @@
              - Symphonic Dances <br>
              - Piano Concerto (soloist Olga Kopylova) <br><br>
 
+             <b>MENDELSSOHN</b><br>
+             - A Midsummer Night's Dream Overture <br><br>
 
-            - MENDELSSOHN A Midsummer Night's Dream Overture <br>
-            - KODALY Galanta Dances <br>
-            - WOLFGANG A. MOZART Don Giovanni, KV 527: Overture, The Magic Flute Overture <br>
-            - LUDWIG VAN BEETHOVEN Egmont, Op.84, Leonore Overture No.3 <br>
-            - CARL MARIA VON WEBER Der Freischutz, Op.77: Overture <br>
-            - BÉLA BARTÓK Hungarian Pictures <br>
-            - GIUSEPPE VERDI Nabucco: Overture <br>
-            - JOHANN STRAUSS JR. Op.362: overture <br>
-            - SHOSTAKOVICH - Symphony nº 5 <br>
-            - NEW MUSIC - GROSSMAN Gravitações <br>
-            - ADAMS Short Ride in a Fast Machine <br>
-            - BERLIOZ Fantastic Symphony <br>
-            - GINASTERA Suite Estancia (4 Dances) <br>
-            - TCHAIKOVSKY Symphony nº 4 <br>
-            - HAYDN Symphony nº 104 <br>
-            - GRIEG Concerto for piano <br>
-            - BOULEZ Le Marteau sans Maitre <br>
-            - RALPH VAUGHAN WILLIAMS - The Lark Ascending <br>
-            - J.S.BACH - Concerto in F minor for piano and orchestra <br>
-            - G.BOTTESINI - Elegy in D Major <br>
-            - G.F.HANDEL - Concerto for Harp and Orchestra <br>
-            - CIBELLE J.Donza - Passárgada em Noites e Luzes <br> 
-            - FANNY MENDELSSOHN HENSEL - Overture in C major <br>
-            - CECILE CHAMINADE - Concertino for flute and orchestra <br>
-            - AMY BEACH - Symphony in E minor <br>
+             <b>Kodaly</b><br>
+             - Galanta Dances <br><br>
+
+             <b>WOLFGANG A. MOZART</b><br>
+             - Don Giovanni <br> 
+             - KV 527: Overture<br> 
+             - The Magic Flute Overture <br><br>
+
+             <b>LUDWIG VAN BEETHOVEN</b><br>
+             - Egmont, Op.84 <br> 
+             - Leonore Overture No.3 <br><br>
+
+             <b>CARL MARIA VON WEBER</b><br>
+             - Der Freischutz <br>
+             - Op.77: Overture <br><br>
+
+             <b>BÉLA BARTÓK</b><br>
+             - Hungarian Pictures <br><br>
+
+             <b>GIUSEPPE VERDI</b><br>
+             - Nabucco: Overture <br><br>
+
+             <b>JOHANN STRAUSS JR.</b><br>
+             - Op.362: overture <br><br>
+
+             <b>SHOSTAKOVICH</b><br>
+             - Symphony nº 5<br><br>
+
+             <b>NEW MUSIC GROSSMAN</b><br>
+             - Gravitações <br><br>
+
+             <b>ADAMS</b><br>
+             - Short Ride in a Fast Machine <br><br>
+
+             <b>BERLIOZ</b><br>
+             - Fantastic Symphony <br><br>
+
+             <b>GINASTERA</b><br>
+             - Suite Estancia (4 Dances) <br><br>
+
+             <b>TCHAIKOVSKY</b><br>
+             - Symphony nº 4 <br><br>
+
+             <b>HAYDN</b><br>
+             - Symphony nº 104 <br><br>
+
+             <b>GRIEG</b><br>
+             - Concerto for piano <br><br>
+
+             <b>BOULEZ</b><br>
+             - Le Marteau sans Maitre<br><br>
+
+             <b>RALPH VAUGHAN WILLIAMS</b><br>
+             - The Lark Ascending <br><br>
+
+             <b>J.S.BACH</b><br>
+             - Concerto in F minor for piano and orchestra <br><br>
+
+             <b>G.BOTTESINI</b><br>
+             - Elegy in D Major <br><br>
+
+             <b>G.F.HANDEL</b><br>
+             - Concerto for Harp and Orchestra <br><br>
+
+             <b>CIBELLE J.Donza</b><br>
+             - Passárgada em Noites e Luzes <br><br>
+
+             <b>FANNY MENDELSSOHN HENSEL</b><br>
+             - Overture in C major <br><br>
+
+             <b>CECILE CHAMINADE</b><br>
+             - Concertino for flute and orchestra <br><br>
+
+             <b>AMY BEACH</b><br>
+             - Symphony in E minor <br><br>
+
           </div>
           <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
             <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
@@ -133,31 +174,58 @@
         <br>
         <div class="card" id="manitoba">
           <div class="card-body repertorios">
-
             <p><b>Repertoire conducting at the University of Manitoba (2014 - 2015) </b></p>
 
-            - SCHUBERT Symphony in B minor <br>
-            - MAHLER Symphony no. 1 <br>
-            - ROSSINI Opera La Cenerentola <br>
-            - WEBER Die Freischutz Overture <br>
-            - BEETHOVEN Piano Concerto 4 <br>
+            <b>SCHUBERT</b><br>
+            - Symphony in B minor <br><br>
+
+            <b>MAHLER</b><br>
+            - Symphony no. 1 <br><br>
+
+            <b>ROSSINI</b><br>
+            - Opera La Cenerentola <br><br>
+
+            <b>WEBER</b><br>
+            - Die Freischutz Overture <br><br>
+
+            <b>BEETHOVEN</b><br>
+            - Piano Concerto 4 <br>
             - Symphony no. 5 <br>
             - Violin Concerto Op. 61(Yufei Liu, violin) <br>
-            - King Stephen Overture Op. 117 <br>
-            - MOZART Overture to Zauberflote <br>
-            - CHOPIN Piano Concerto 1 <br>
-            - MENDELSSOHN Symphony no. 5 (reformation) <br>
-            - ÖRJAN SANDRED - Mechanica <br>
-            - JEAN SIBELIUS - Karelia Suite Op. 11 <br>
-            - WILHELM STENHAMMAR - Symphony 2 <br>
-            - F. J. HAYDN - Symphony no. 104 <br>
-            - Trumpet Concerto (Paul Jeffrey, trumpet) <br>
-            - J. BRAHMS - Academic Festival Overture <br>
-            - Variations on a Theme by Haydn Op. 56 <br>
-            - G. F. HANDEL - Music for the Royal Fireworks (Mackerras ed.)New PIece by <br>
-            - LAURA GOW - (U of M student composer)Jean Sibelius: Violin Concerto Op.47 (Gregory Lewis, violin) <br>
-            - A.DVORAK - Symphony no. 8 Op. 88 <br>
+            - King Stephen Overture Op. 117 <br><br>
 
+            <b>MOZART</b><br>
+            - Overture to Zauberflote <br><br>
+
+            <b>CHOPIN</b><br>
+            - Piano Concerto 1 <br><br>
+
+            <b>MENDELSSOHN</b><br>
+            - Symphony no. 5 (reformation) <br><br>
+
+            <b>ÖRJAN SANDRED</b><br>
+            - Mechanica <br><br>
+
+            <b>JEAN SIBELIUS</b><br>
+            - Karelia Suite Op. 11 <br><br>
+
+            <b>WILHELM STENHAMMAR</b><br>
+            - Symphony 2 <br><br>
+
+            <b>F. J. HAYDN</b><br>
+            - Symphony no. 104 <br>
+            - Trumpet Concerto (Paul Jeffrey, trumpet) <br><br>
+
+            <b>J. BRAHMS</b><br>
+            - Academic Festival Overture <br>
+            - Variations on a Theme by Haydn Op. 56 <br><br>
+
+            <b>G. F. HANDEL</b><br>
+            - Music for the Royal Fireworks (Mackerras ed.)New PIece by Laura GOW - - (U of M student composer)<br>
+            - Jean Sibelius: Violin Concerto Op.47 (Gregory Lewis, violin) <br><br>
+
+            <b>A.DVORAK</b><br>
+            - Symphony no. 8 Op. 88 <br><br>
           </div>
           <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
             <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
@@ -170,24 +238,50 @@
 
             <p><b>Repertoire rehearsed with the Community Symphony Choir and the Orchestra of the University of Brasília as Assistant Conductor  </b></p>
 
-            <ul>
-              <li>Petite Messe Solennelle, by Gioachino Rossini</li>
-              <li>Symphony No.2 in B flat major, “Lobgesang” or “Hymn of Praise”, by Felix Mendelssohn</li>
-              <li>The Many Moods of Christmas, arranged by Robert Russell Bennett</li>
-              <li>Fantasy in C minor for Piano, Chorus and Orchestra, “Choral Fantasy”
-                Op. 80, by Ludwig van Beethoven. Also performed the Alto solo at the
-              concert.</li>
-              <li>Requiem in C minor for mixed chorus and orchestra, by Luigi Cherubini</li>
-              <li>Festival Mass, by John Leavitt</li>
-              <li>Gloria, by John Milford Rutter</li>
-              <li>Gloria RV 589, by Antonio Vivaldi </li>
-              <li>Carmina Burana, by Carl Orff</li>
-              <li>Missa Brevis, by Sergio Nogueira (premiere)</li>
-              <li>Salmos, by Edgard Felipe (premiere)</li>
-              <li>Vesperae Solennes de confessore, K.339, by Wolfgang Amadeus Mozart</li>
-              <li>Misatango, by Martin Palmeri</li>
-              <li>Magnificats, by Johann Pachelbel</li>
-            </ul>
+              <b>GIOACHINO ROSSINI</b><br>
+              - Petite Messe Solennelle <br><br>
+
+              <b>FELIX MENDELSSOHN</b><br>
+              - Symphony No.2 in B flat major <br>  
+              - “Lobgesang” or “Hymn of Praise”<br><br>
+
+              <b>ROBERT RUSSEL BENNETT</b><br>
+              - The Many Moods of Christmas<br><br>
+
+              <b>LUDWIG VAN BEETHOVE. Also performed the Alto solo at the concert.</b><br>
+              - Fantasy in C minor for Piano<br> 
+              - Chorus and Orchestra <br> 
+              - “Choral Fantasy” Op. 80 <br><br>
+
+              <b>LUIGI CHERUBINI</b><br>
+              - Requiem in C minor for mixed chorus and orchestra<br><br>
+
+              <b>JOHN LEAVITT</b><br>
+              - Festival Mass<br><br>
+
+              <b>JOHN MILFORD RUTTER</b><br>
+              - Gloria<br><br>
+
+              <b>ANTONIO VIVALDI </b><br>
+              - Gloria RV 589<br><br>
+
+              <b>CARL ORFF</b><br>
+              - Carmina Burana<br><br>
+
+              <b>SERGIO NOGUEIRA</b><br>
+              - Missa Brevis <br><br>
+
+              <b>EDGARD FELIPEE (premiere)</b><br>
+              - Salmos<br><br>
+
+              <b>WOLFGANG AMADEUS MOZART</b><br>
+              - Vesperae Solennes de confessore, K.339<br><br>
+
+              <b>MARTIN PALMERI</b><br>
+              - Misatango<br><br>
+
+              <b>JOHANN PACHELBEL</b><br>
+              - Magnificats<br><br>
 
           </div>
         </div>
@@ -197,22 +291,30 @@
 
             <p><b>Repertoire conducted in concerts with Brasilia School of Music String Orchestra in 2010 </b></p>
 
-            <ul>
-              <li>Peer Gynt Suite no. 1, Opus 46, Aase’s Death, by Edvard Grieg</li>
-              <li>Brandenburg Concerto No.3 in G major, BWV 1048, by Johann</li>
-              Sebastian Bach
-              <li>Andante Cantabile from String Quartet No.1 in D major, Opus 11, by
-              Pyotr Ilyich Tchaikovsky</li>
-              <li>Jesu, meine Freude Motet, by Johann Sebastian Bach (arranged for
-              string orchestra)</li>
-              <li>The Gymnopédies, by Erik Satie (arranged for string orchestra)</li>
-              <li>Hungarian Dances No. 5, by Johannes Brahms</li>
-              <li>Pictures at an Exhibition, by Modest Mussorgsky (arranged for string
-              orchestra)</li>
-              <li>Carmen Suite No.1, by Georges Bizet</li>
-              <li>Pur ti Miro, from the opera L’incoronazione di Poppea, SV 308, by
-              Claudio Monteverdi</li>
-            </ul>
+              <b>EDVARD GRIEG</b><br>
+              - Peer Gynt Suite no. 1, Opus 46, Aase’s Death<br><br>
+
+              <b>JOHANN SEBASTIAN BACH</b><br>
+              - Brandenburg Concerto No.3 in G major, BWV 1048 <br>
+              - Jesu, meine Freude Motet (arranged for string orchestra)<br><br>
+
+              <b>PYOTR ILYICH TCHAIKOVSKY</b><br>
+              - Andante Cantabile from String Quartet No.1 in D major, Opus 11 <br><br>
+
+              <b>ERIK SATIE</b><br>
+              - The Gymnopédies (arranged for string orchestra)<br><br>
+
+              <b>JOHANNES BRAHMS</b><br>
+              - Hungarian Dances No. 5 <br><br>
+
+              <b>MODEST MUSSORGSKY</b><br>
+              - Pictures at an Exhibition (arranged for string orchestra)<br><br>
+
+              <b>GEORGES BIZET</b><br>
+              - Carmen Suite No.1<br><br>
+
+              <b>CLAUDIO MONTEVERDI</b><br>
+              - Pur ti Miro, from the opera L’incoronazione di Poppea, SV 308 <br><br>
 
           </div>
           <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
@@ -226,24 +328,30 @@
 
             <p><b>Relevant repertoire conducted in other concerts </b></p>
 
-            <ul>
-              <li>2008 – Concertino da Camara pour Saxophone Alto et Onze
-              Instruments, by Jacques Ibert</li>
-              <li>2008 – Magnificat in D major, BWV 243, by Johann Sebastian Bach</li>
-              <li>2008 – Octet in E- flat major, Op. 103, by Ludwig van Beethoven</li>
-              <li>2008 – Octet for wind instruments, by Igor Stravinsky</li>
-              <li>2008 – Three Wind Octets, by Josef Myslivecek</li>
-              <li>2008 – Partita, Octet by Franz Joseph Haydn</li>
-              <li>2008 – Pieces for wind octet, by Fernando Moraes (premiere)</li>
-              <li>2009 – Requiem in D minor, K. 626, by Wolfgang Amadeus Mozart</li>
-              <li>2010 – Orfeo ed Euridice, opera by Christoph Willibald Gluck</li>
-              <li>2010 – Peter and the Wolf, Op. 67, by Sergei Prokofiev</li>
-              <li>2011 – Tokoloshe for instruments and ballet, by Rafael Maklon</li>
-              <li>2012 – Undergraduate Concert: Valse Triste, by Jean Sibelius and
-                Romanian Folk Dances arranged for Orchestra, Sz. 56, BB. 68, by Béla
-              Bartók </li>
-              <li>2013 – current: Oratorio de Noel, Op. 12, by Camille Saint-Saens </li>
-            </ul>
+              <b>2008</b><br>
+              - Concertino da Camara pour Saxophone Alto et Onze Instruments, by Jacques Ibert<br>
+              - Magnificat in D major, BWV 243, by Johann Sebastian Bach <br>
+              - Octet in E- flat major, Op. 103, by Ludwig van Beethoven <br>
+              - Octet for wind instruments, by Igor Stravinsky <br>
+              - Three Wind Octets, by Josef Myslivecek <br>
+              - Partita, Octet by Franz Joseph Haydn <br>
+              - Pieces for wind octet, by Fernando Moraes (premiere)<br><br>
+
+              <b>2009</b><br>
+              - Requiem in D minor, K. 626, by Wolfgang Amadeus Mozart <br><br>
+
+              <b>2010</b><br>
+              - Orfeo ed Euridice, opera by Christoph Willibald Gluck<br>
+              - Peter and the Wolf, Op. 67, by Sergei Prokofiev <br><br>
+
+              <b>2011</b><br>
+              - Tokoloshe for instruments and ballet, by Rafael Maklon<br><br>
+
+              <b>2012</b><br>
+              - Undergraduate Concert: Valse Triste, by Jean Sibelius and Romanian Folk Dances arranged for Orchestra, Sz. 56, BB. 68, by Béla Bartók <br><br>
+
+              <b>2013 – current</b><br>
+              - Oratorio de Noel, Op. 12, by Camille Saint-Saens <br>
 
           </div>
           <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
@@ -257,34 +365,43 @@
 
             <p><b>Pieces Rehearsed during festivals, workshops and masterclasses </b></p>
 
-            <ul>
-              <li>2008 – Brasilia Winter Music Festival: Mini Concerto Grosso for String
-              Orchestra, by Claudio Santoro. </li>
-              <li>2009 – Poços de Caldas International Festival: West Side Story
-              Overture, by Leonard Bernstein. </li>
-              <li>2009 – Londrina International Music Festival: Ma mère L’oye, by Maurice
-                Ravel, and Symphony No.35 in D major, K.385, by Wolgang Amadeus
-              Mozart.</li>
-              <li>2009 – Masterclass with maestro Osvaldo Ferreira and The Youth
-                Brazilian Symphony Orchestra: Symphony No. 8 in B minor (No.7
-                according to the Neue Schubert-Ausgabe) or “Unfinished Symphony” by
-                Franz Schubert; Symphony No.9 in E minor, “From the New World”, Op.
-              95, by Antonín Dvorak.</li>
-              <li>2010 – Masterclass with maestro Osvaldo Ferreira: Symphony No.1 in C
-              major, Op. 21, by Ludwig van Beethoven.</li>
-              <li>2010 – Uberlandia International Music Movement: Symphony No.5 in C
-                minor, Op.67, by Ludwig van Beethoven; Carmen Suite No. 1, by
-                Georges Bizet and Crisantemi; Elegy for String Quartet, by Giacomo
-              Puccini.</li>
-              <li>2011 – Curitiba Music Workshop: Symphony No. 5 in C minor, Op. 67 by
-                Ludwig van Beethoven; Symphony No.41 in C major, K.551, by Wolfgang
-                Amadeus Mozart; Symphony No.2, “Resurrection Symphony”, by Gustav
-              Mahler.</li>
-              <li>2013 – Brasilia Summer Festival: Symphony No. 8 in G major, Op.88, B.
-                163, by Antonín Dvorak; Symphony No.3 in A minor, Op.56, “Scottish”, by
-                Felix Mendelssohn; Symphony No. 40 in G minor, KV.550 by Wolfgang
-              Amadeus Mozart. </li>
-            </ul>
+              <b>2008</b><br>
+              - <b>Brasilia Winter Music Festival</b>: Mini Concerto Grosso for String
+              Orchestra, by Claudio Santoro. <br><br>
+
+              <b>2009</b><br>
+              - <b>Poços de Caldas International Festival</b>: <br>
+              -> West Side Story Overture, by Leonard Bernstein. <br><br>
+
+              - <b>Londrina International Music Festival</b>: <br>
+              -> Ma mère L’oye, by Maurice Ravel; <br>
+              -> Symphony No.35 in D major, K.385, by Wolgang Amadeus Mozart. <br><br>
+
+              - <b>Masterclass with maestro Osvaldo Ferreira and The Youth Brazilian Symphony Orchestra</b>: <br>
+              -> Symphony No. 8 in B minor (No.7 according to the Neue Schubert-Ausgabe) or “Unfinished Symphony” by
+                Franz Schubert; <br>
+              -> Symphony No.9 in E minor, “From the New World”, Op.95, by Antonín Dvorak. <br><br>
+              
+              <b>2010</b><br>
+              - <b>Masterclass with maestro Osvaldo Ferreira</b>:<br> 
+              -> Symphony No.1 in C major, Op. 21, by Ludwig van Beethoven. <br><br>
+
+              - <b> Uberlandia International Music Movement: </b><br>
+              -> Symphony No.5 in C minor, Op.67, by Ludwig van Beethoven; <br>
+              -> Carmen Suite No. 1, by Georges Bizet and Crisantemi; <br>
+              -> Elegy for String Quartet, by Giacomo Puccini.<br><br>
+
+              <b>2011</b><br>
+              - <b>Curitiba Music Workshop</b>: <br> 
+              -> Symphony No. 5 in C minor, Op. 67 by Ludwig van Beethoven; <br>
+              -> Symphony No.41 in C major, K.551, by Wolfgang Amadeus Mozart; <br>
+              -> Symphony No.2, “Resurrection Symphony”, by Gustav Mahler. <br><br>
+
+              <b>2013</b><br>
+              - <b>Brasilia Summer Festival</b>: <br>
+              -> Symphony No. 8 in G major, Op.88, B.163, by Antonín Dvorak; <br>
+              -> Symphony No.3 in A minor, Op.56, “Scottish”, by Felix Mendelssohn; <br>
+              -> Symphony No. 40 in G minor, KV.550 by Wolfgang Amadeus Mozart. 
 
           </div>
           <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
@@ -297,17 +414,31 @@
           <div class="card-body repertorios">
             <p><b>Other pieces studied during the Undergraduate program </b></p>
 
-            <ul>
-              <li>Egmont, Op. 84, by Ludwig van Beethoven</li>
-              <li>Other Beethoven’s Symphonies</li>
-              <li>Symphony No.1, No.2 and No.4, by Johannes Brahms</li>
-              <li>Symphony No.5 in D minor, Op. 47, by Dmitri Shostakovich</li>
-              <li>Symphony No.2 in C major, Op. 61, by Robert Schumann</li>
-              <li>Messiah, HWV 56, by George Friedrich Handel</li>
-              <li>Requiem Mass (1816), by José Maurício Nunes Garcia</li>
-              <li>Mass in B minor, BWV 232, by Johann Sebastian Bach</li>
-            </ul>
+              <b>LUDWIG VAN BEETHOVEN</b><br>
+              - Egmont, Op. 84<br>
+              - Other Beethoven’s Symphonies <br><br>
 
+              <b>JOHANNES BRAHMS</b><br>
+              - Symphony No.1 <br>
+              - Symphony No.2 <br>
+              - Symphony No.4 <br><br>
+
+              <b>DMITRI SHOSTAKOVICH</b><br>
+              - Symphony No.5 in D minor, Op. 47<br><br>
+
+              <b>ROBERT SCHUMANN</b><br>
+              - Symphony No.2 in C major, Op. 61<br><br>
+
+              <b>GEORGE FRIEDRICH HANDEL</b><br>
+              - Messiah <br>
+              - HWV 56 <br><br>
+
+              <b>JOSÉ MAURÍCIO NUNES GARCIA</b><br>
+              - Requiem Mass (1816) <br><br>
+
+              <b>JOHANN SEBASTIAN BACH</b><br>
+              - Mass in B minor <br>
+              - BWV 232 <br><br>
           </div>
           <div class="clearfix col-sm-1 col-lg-2 col-md-8 mx-auto">
             <a class="btn btn-primary float-right" href="#menu" style=""><i class="fas fa-arrow-up"></i></a>
@@ -320,7 +451,7 @@
   </div>
 
   <!-- Footer -->
-  <?php include '../../web/components/footer.php';?>
+  <?php include '../components/footer.php';?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
