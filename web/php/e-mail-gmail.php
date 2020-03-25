@@ -22,7 +22,7 @@ require 'C:/xampp/htdocs/myzi-eder/vendor/autoload.php';
             $mail->Port = 465;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('diegommobr@gmail.com', 'Diego');
+            $mail->setFrom('diegommobr@gmail.com', 'Equipe Mariana Menezes');
             $mail->addAddress('emaildiegomo@gmail.com', "Website Contact");    // Add a recipient
             $mail->addReplyTo($email, $name);
             //$mail->addCC('emaildiegomo@gmail.com'); //para testar
