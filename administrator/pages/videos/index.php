@@ -70,22 +70,32 @@
                     </tr>
                   </tfoot>
                   <tbody>
-                    <tr>
-                      <td>Moisés Silva de Sousa</td>
-                      <td style="text-align: center;">
-                        <a href="#" class="btn btn-danger btn-circle">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Diego Oliveira</td>
-                      <td style="text-align: center;">
-                        <a href="#" class="btn btn-danger btn-circle">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </td>
-                    </tr>
+                    <?php
+                    require_once('../db.class.php');
+                    $objDb = new db();
+                    $link = $objDb->conecta_mysql();
+                    $sqls = " SELECT * FROM video";
+                    $resultado_ids = mysqli_query($link, $sqls);
+                    if($resultado_ids){
+                      while($registros = mysqli_fetch_array($resultado_ids, MYSQLI_ASSOC)){
+                        $numero = $registros['id_video'];
+                        ?>
+                        <tr>
+                          <td><?php echo $registros['titulo']?></td>
+                          <td style="text-align: center;">
+                            <a href="#" class="btn btn-danger btn-circle" data-toggle="modal" data-target="#ModalApagar"
+                            data-id="<?php echo $registros['id_video']; ?>">
+                            <i class="fas fa-trash"></i>
+                            </a>
+                          </td>
+                        </tr>
+                        <?php
+                      }
+                    }
+                    else {
+                      echo 'Erro na consulta dos emails no banco de dados!';
+                    }
+                    ?>
                   </tbody>
                 </table>
               </div>
@@ -114,24 +124,27 @@
   </a>
 
   <!-- Logout Modal-->
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-        <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
-        </div>
+<!-- Modal-->
+<div id="ModalApagar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Remover Imagem</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
+      <form action="remove.php" method="POST" enctype="multipart/form-data"> <!--faz o post para o arquivo php-->
+        <div class="modal-body">
+          <label>Tem certeza que deseja remover a imagem?</label>
+          <div class="modal-footer">
+            <input type="hidden" class="form-control" name="id" id="id">
+            <button type="submit" class="btn btn-danger">Apagar</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
-
+</div>
 
   <!-- Bootstrap core JavaScript-->
   <script src="../vendor/jquery/jquery.min.js"></script>
@@ -149,6 +162,17 @@
 
   <!-- Page level custom scripts -->
   <script src="../js/demo/datatables-demo.js"></script>
+
+  <script type="text/javascript">
+   $('#ModalApagar').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var recipient = button.data('id') // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('.modal-footer #id').val(recipient)
+    })
+</script>
 
 </body>
 

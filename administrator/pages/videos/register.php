@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Criar conta</title>
+  <title>Vídeos</title>
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -48,7 +48,7 @@
             </div>
             <hr>
             <button type="submit" class="btn btn-primary btn-user btn-block">Salvar</button>
-            <a href="../fotos" class="btn btn-primary btn-user btn-block">
+            <a href="../videos" class="btn btn-primary btn-user btn-block">
               Cancelar
             </a>
           </form>

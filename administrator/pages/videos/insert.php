@@ -12,7 +12,6 @@ $sql = "INSERT INTO `video` (`id_video`, `titulo`, `link_youtube`) VALUES (NULL,
 
 mysqli_query($link, $sql);
 
-echo $statusMsg;
 $url = '../videos/';
 echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
 

@@ -25,7 +25,6 @@ if($senha == $confirma_senha){
 
 mysqli_query($link, $sql);
 
-echo $statusMsg;
 $url = '../usuarios/';
 echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
 

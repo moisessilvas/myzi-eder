@@ -54,8 +54,6 @@ echo $sql;
 
 mysqli_query($link, $sql);
 
-
-echo $statusMsg;
 $url = '../fotos/';
 echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
 
