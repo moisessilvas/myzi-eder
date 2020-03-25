@@ -1,5 +1,5 @@
 <?php
-    require_once('e-mail-gmail.php', '../../../web/php/e-mail-gmail.php');
+    require_once('../../web/php/e-mail-gmail.php');
     
     
       $name = $_POST["name"];
