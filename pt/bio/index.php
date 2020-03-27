@@ -50,11 +50,13 @@
         <p>Desde de 2016, Mariana é regente residente da Sociedade de Concertos de Brasília (SCB),  colaborando com projetos, programação e produção musical da instituição. Além disso, Mariana atuou como professora de Regência da Universidade de Brasília no ano de 2019 e gravou seu curso de regência em vídeo que será lançado em breve na plataforma digital Musicalll.</p>
         <div class="row justify-content-md-center">
           <div class="col-sm">
+            <a class="btn btn-primary btn-block" href="Releasecurto.docx" target="_blank" style="">Pequena Biografia <i class="fas fa-download"></i></a>
           </div>
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="https://www.dropbox.com/sh/ea90gpkpmv1ygza/AABbsFaL9D0kN7-5wtDnqeUka?dl=0" target="_blank" style="">Biografia</a>
+            <a class="btn btn-primary btn-block" href="Releasemedio.docx" target="_blank" style="">Média Biografia <i class="fas fa-download"></i></a>
           </div>
           <div class="col-sm">
+            <a class="btn btn-primary btn-block" href="Releasegrande.docx" target="_blank" style="">Grande Biografia <i class="fas fa-download"></i></a>
           </div>
         </div>
         <br>
@@ -64,7 +66,7 @@
 
   <hr>
 
-<!-- Footer -->
+  <!-- Footer -->
   <?php include '../components/footer.php';?>
 
   <!-- Bootstrap core JavaScript -->

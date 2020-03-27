@@ -43,14 +43,37 @@
         </nav>
       </div>
       <div class="col-lg-9 col-md-9 mx-auto sobre-maior">
-        <h2 style="text-align: center; font-family: poppins;">Vídeos</h2><br>
+        <h2 style="text-align: center; font-family: poppins;">Entrevistas</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/jkfETzqEkU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="row justify-content-md-center">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <a class="btn btn-primary btn-block" href="https://m.soundcloud.com/alvarohenrique/bravo-72-190217-mariana-menezes" target="_blank" style="">Ouça aqui <i class="fas fa-podcast"></i></a>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+        <br>
+        <h2 style="text-align: center; font-family: poppins;">Concertos</h2><br>
+        <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/Xo45Rl21VXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/uhPszkoeAfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/02gJlaN6q_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <h2 style="text-align: center; font-family: poppins;">Ensaios</h2><br>
+        <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/j4NfVSnjIZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
         </div>
       </div>
     </div>
   </div>
-
+  <hr>
   <!-- Footer -->
   <?php include '../components/footer.php';?>
 

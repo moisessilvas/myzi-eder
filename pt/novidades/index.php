@@ -22,7 +22,7 @@
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
-  <link rel="stylesheet" href="../../web/pages/css/navbar-bio.css">
+  <link rel="stylesheet" type="text/css" href="../../web/pages/css/navbar-bio.css">
 
 </head>
 
@@ -32,31 +32,28 @@
   <?php include '../components/navbar.php';?>
 
   <!-- Page Header -->
-  <img src="../../web/pages/img/12.jpg" class="tentativa">
+  <img src="../../web/pages/img/news.jpg" class="tentativa">
   <br>
   <!-- Main Content -->
   <h2 style="text-align: center; font-family: poppins;">Concertos</h2>
-  <div class="container">
+  <br>
+  <div class="container" style="text-align: left; font-family: poppins;">
     <div class="row">
       <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
-      <div class="col-lg-10 col-md-10 justify-content-md-center">
-        <div class="card concerto repertorios">
-          <div class="card-header">
-            Madrigal de Brasília, Temporada 2020
-          </div>
-          <div class="card-body concerto">
-            <h5 class="card-title concerto">The Gift of Life</h5>
-            <p class="card-text">Série Madrigal convida: <p style="font-family: blenheim">Mariana Menezes</p></p>
-            <p>Maestrina em Residência</p>
-            <p style="text-align: left">01 de abril de 2020 às 20h00</p>
-            <p style="text-align: left">TLA - Teatro Levino de Alcântara</p>
-            <p style="text-align: left">EMB - Av. L2 Sul - Quadra 602 - Entrada Franca!</p>
-            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
-          </div>
-        </div>
+      <div class="col-lg-4 col-md-12 justify-content-md-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15355.671104529274!2d-47.881149!3d-15.808289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa11b843e009d8b7d!2sEscola%20de%20M%C3%BAsica%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1585168424020!5m2!1spt-BR!2sbr" width="auto" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" style="padding-right: 50%; padding-left: 50%;"></iframe>
+      </div>
+      <div class="col-lg-7 col-md-12 justify-content-md-center">
+        <h5><b>Madrigal de Brasília, Temporada 2020</b></h5><br>
+        <h6 style="text-align: left; font-family: poppins; font-weight: 200;">The Gift of Life</h6>
+        <h6 style="text-align: left; font-family: poppins; font-weight: 200;">A Série Madrigal, convida: Mariana Menezes, Maestrina em Residência</h6>
+        <h6 style="text-align: left; font-family: poppins; font-weight: 200;">01 de abril de 2020 às 20h00</h6>
+        <h6 style="text-align: left; font-family: poppins; font-weight: 200;">TLA - Teatro Levino de Alcântara</h6>
+        <h6 style="text-align: left; font-family: poppins; font-weight: 200;">EMB - Av. L2 Sul - Quadra 602 - Entrada Franca!</h6>
       </div>
     </div>
   </div>
+
 
   <hr>
 

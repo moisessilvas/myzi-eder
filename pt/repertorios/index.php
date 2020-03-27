@@ -33,7 +33,7 @@
   <!-- Page Header -->
   <img src="../../web/pages/img/repertorios.jpg" class="tentativa">
   <br><br>
-  <h2 style="text-align: center; font-family: poppins;">Lista de Repertórios</h2><br>
+  <h2 style="text-align: center; font-family: poppins;">Lista de Repertório</h2><br>
   <!-- Main Content -->
   <div class="container" id="menu">
     <div class="row">
@@ -445,7 +445,6 @@
           </div>
           <br>
         </div>
-
       </div>
     </div>
   </div>

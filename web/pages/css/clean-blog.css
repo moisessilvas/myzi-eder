@@ -22,7 +22,7 @@
  body {
   font-size: 20px;
   color: #212529;
-  font-family: blenheim;
+  font-family: poppins;
 }
 
 p {
@@ -70,7 +70,7 @@ h6 {
   font-family: URW Chancery L, cursive
   font-family: Courier, monospace;
   font-family: Source Sans Pro;*/
-  font-family: blenheim;
+  font-family: poppins;
 }
 
 a {
@@ -106,13 +106,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #510000;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #510000;
   text-shadow: none;
 }
 

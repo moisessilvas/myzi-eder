@@ -14,13 +14,19 @@
           <a class="nav-link" href="../bio/">Biografia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../repertorios/">Repertórios</a>
+          <a class="nav-link" href="../repertorios/">Repertório</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Insights</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../novidades/">Concertos</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Novidades
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../novidades/">Novidades</a>
+            <a class="dropdown-item" href="../criticas/">Críticas</a>
+          </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,8 +42,8 @@
             Contato
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../imprensa/">Imprensa</a>
-            <a class="dropdown-item" href="../contato/">Fale Conosco</a>
+            <a class="dropdown-item" href="../assessoria/">Assessoria</a>
+            <a class="dropdown-item" href="../contato/">Contato</a>
           </div>
         </li>
         <li class="nav-item dropdown" style="background-color: transparent;">
