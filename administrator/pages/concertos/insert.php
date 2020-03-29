@@ -1,4 +1,10 @@
 <?php
+  session_start();
+  if(!isset($_SESSION['login'])){
+    header('Location: index.php?erro=1');
+  }
+?>
+<?php
 
 require_once('../db.class.php');
 

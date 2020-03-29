@@ -46,6 +46,23 @@
         <h2 style="text-align: center; font-family: poppins;">Entrevistas</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/jkfETzqEkU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <?php
+          require_once('../../administrator/pages/db.class.php');
+          $objDb = new Db();
+          $link = $objDb->conecta_mysql();
+          $sql = "SELECT * FROM `video` WHERE `categoria` LIKE 'Entrevistas'";
+          $resultado_id = mysqli_query($link, $sql);
+          if($resultado_id){
+            while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC)){
+              $link_yt = $registro['link_youtube'];
+              echo $link_yt;
+              echo "<br>";
+            }
+          }else{
+            echo 'Erro na consulta';
+          }
+          ?>
         </div>
         <br>
         <div class="row justify-content-md-center">
@@ -63,12 +80,45 @@
           <iframe width="720" height="480" src="https://www.youtube.com/embed/uhPszkoeAfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>
           <iframe width="720" height="480" src="https://www.youtube.com/embed/02gJlaN6q_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <?php
+          require_once('../../administrator/pages/db.class.php');
+          $objDb = new Db();
+          $link = $objDb->conecta_mysql();
+          $sql = "SELECT * FROM `video` WHERE `categoria` LIKE 'Concertos'";
+          $resultado_id = mysqli_query($link, $sql);
+          if($resultado_id){
+            while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC)){
+              $link_yt = $registro['link_youtube'];
+              echo $link_yt;
+              echo "<br>";
+            }
+          }else{
+            echo 'Erro na consulta';
+          }
+          ?>
         </div>
         <br>
         <h2 style="text-align: center; font-family: poppins;">Ensaios</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/j4NfVSnjIZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>
+          <?php
+          require_once('../../administrator/pages/db.class.php');
+          $objDb = new Db();
+          $link = $objDb->conecta_mysql();
+          $sql = "SELECT * FROM `video` WHERE `categoria` LIKE 'Ensaios'";
+          $resultado_id = mysqli_query($link, $sql);
+          if($resultado_id){
+            while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC)){
+              $link_yt = $registro['link_youtube'];
+              echo $link_yt;
+              echo "<br>";
+            }
+          }else{
+            echo 'Erro na consulta';
+          }
+          ?>
         </div>
       </div>
     </div>

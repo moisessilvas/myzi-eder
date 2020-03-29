@@ -69,6 +69,14 @@
             <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
           </div>
         </form>
+        <hr>
+        <div class="card">
+          <h5 class="card-header">Assessoria</h5>
+          <div class="card-body">
+            <h5 class="card-title">Telefone para contato: +55 61 9</h5>
+            <p class="card-text">Assessoria pessoal: contato@maikaiconsultoria.com.br</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

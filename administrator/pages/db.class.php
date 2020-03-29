@@ -12,7 +12,7 @@
 		private $senha = '';
 
 		//banco de dados
-		private $database = 'mydb';
+		private $database = 'mtamar06';
 		public function conecta_mysql(){
 
 			//criar conexão

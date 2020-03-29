@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['login'])){
+    header('Location: index.php?erro=1');
+  }
+?>
 <?php 
 
 $target_dir = "../img/";
@@ -50,8 +56,6 @@ $link = $objDb->conecta_mysql();
 
 $url_file = "/img/".basename($_FILES["fileToUpload"]["name"]);
 $sql  = "INSERT INTO `photo` (`id_photo`, `file_name`, `upload_time`) VALUES ('', '$url_file', '0');";
-echo $sql;
-
 mysqli_query($link, $sql);
 
 $url = '../fotos/';

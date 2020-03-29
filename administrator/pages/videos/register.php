@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['login'])){
+    header('Location: index.php?erro=1');
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,19 +49,28 @@
               <hr>
               <div class="form-group row">
                <div class="col-sm-12 mb-3 mb-sm-0">
-                <textarea type="text" rows="10" class="form-control form-control-user" placeholder="Código disponibilizado pelo Youtube" name="iframe"></textarea> 
+                <textarea type="text" rows="9" class="form-control form-control-user" placeholder="Código disponibilizado pelo Youtube" name="iframe"></textarea> 
               </div>
             </div>
-            <hr>
-            <button type="submit" class="btn btn-primary btn-user btn-block">Salvar</button>
-            <a href="../videos" class="btn btn-primary btn-user btn-block">
-              Cancelar
-            </a>
-          </form>
-        </div>
+            <div class="form-group row">
+             <div class="col-sm-12 mb-3 mb-sm-0">
+              <select class="form-control" name="categoria">
+                <option value="Concertos">Concertos</option>
+                <option value="Entrevistas">Entrevistas</option>
+                <option value="Ensaios">Ensaios</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <button type="submit" class="btn btn-primary btn-user btn-block">Salvar</button>
+          <a href="../videos" class="btn btn-primary btn-user btn-block">
+            Cancelar
+          </a>
+        </form>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 </div>

@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['login'])){
+    header('Location: index.php?erro=1');
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,7 +67,6 @@
                     <tr>
                       <th>Nome</th>
                       <th>E-mail</th>
-                      <th style="text-align: center;">Editar</th>
                       <th style="text-align: center;">Excluir</th>
                     </tr>
                   </thead>
@@ -69,7 +74,6 @@
                     <tr>
                       <th>Nome</th>
                       <th>E-mail</th>
-                      <th style="text-align: center;">Editar</th>
                       <th style="text-align: center;">Excluir</th>
                     </tr>
                   </tfoot>
@@ -87,11 +91,6 @@
                         <tr>
                           <td><?php echo $registros['name_user']?></td>
                           <td><?php echo $registros['email_user']?></td>
-                          <td style="text-align: center;">
-                            <a href="#" class="btn btn-warning btn-circle">
-                              <i class="fas fa-cogs"></i>
-                            </a>
-                          </td>
                           <td style="text-align: center;">
                             <a href="#" class="btn btn-danger btn-circle" data-toggle="modal" data-target="#ModalApagar"
                             data-id="<?php echo $registros['id_user']; ?>">

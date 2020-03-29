@@ -54,6 +54,7 @@
           <a class="collapse-item" href="fotos/">Fotos</a>
           <a class="collapse-item" href="usuarios/">Usuários</a>
           <a class="collapse-item" href="videos/">Vídeos</a>
+          <a class="collapse-item" href="email/">E-mails</a>
         </div>
       </div>
     </li>
