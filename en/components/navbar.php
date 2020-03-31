@@ -34,7 +34,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="../images/">Images</a>
-            <a class="dropdown-item" href="../videos/">Vídeos</a>
+            <a class="dropdown-item" href="../videos/">Videos</a>
           </div>
         </li>
         <li class="nav-item dropdown">
