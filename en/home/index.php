@@ -41,7 +41,7 @@
             <br><br><br><br><br>
             <h1 class="animated bounceInUp titulo" style="font-size: 70px;">Mariana Menezes</h1>
             <br>
-            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">REGENTE</h1>
+            <h1 class="animated bounceInUp subtitulo" style="font-size: 20px;">CONDUCTOR</h1>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
       <div class="col-lg-10 col-md-10 mx-auto col-12 mt-3">
         <p class="sobre">Acclaimed by the specialized critic as a "young conductor of prodigious memory" and with "artistic maturity typical from the great masters". Mariana Menezes has already performed with the greatest Brazilian orchestras as the São Paulo Symphony Orchestra (OSESP), the Minas Gerais Philharmonic, the Theatro da Paz Symphony Orchestra, the National Theater Cláudio Santoro Symphony Orchestra, among others.</p>
         <div class="clearfix col-sm-1 col-lg-3 col-md-8 mx-auto">
-          <a class="btn btn-primary float-right" href="../bio/" style="">More information &rarr;</a>
+          <a class="btn btn-primary float-right" href="../bio/" style="">More information</a>
         </div>
       </div>
     </div>

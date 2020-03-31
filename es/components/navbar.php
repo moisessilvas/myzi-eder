@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light fixo" id="mainNav" style="font-family: exo;">
   <div class="container">
-    <a class="navbar-brand" href="">Mariana Menezes</a>
+    <a class="navbar-brand" href="" style="font-family: blenheim; font-size: 15px; margin-top: 4px;">Mariana Menezes</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
+      Menú
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -11,35 +11,50 @@
           <a class="nav-link" href="../inicio/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../bio/">Bio</a>
+          <a class="nav-link" href="../bio/">Biografia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../medios/">Los medios</a>
+          <a class="nav-link" href="../repertorios/">Repertorio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../repertorios/">Repertorios</a>
+          <a class="nav-link" href="#">Insights</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../noticias/">Noticias</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Novedades
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../novedades/">Novedades</a>
+            <a class="dropdown-item" href="../criticas/">Críticas</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            En los medios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../imagenes/">Imágenes</a>
+            <a class="dropdown-item" href="../videos/">Videos</a>
+          </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Contacto
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../periodicos/">Periódicos</a>
-            <a class="dropdown-item" href="../contacto/">Hable con nosotros</a>
+            <a class="dropdown-item" href="../asesor/">Asesor</a>
+            <a class="dropdown-item" href="../contacto/">Contacto</a>
           </div>
         </li>
         <li class="nav-item dropdown" style="background-color: transparent;">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Idiomas
+            Idioma
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center">
-            <a class="dropdown-item" href="../inicio"><img src="../../web/components/espana.png" width="20%" class="img-fluid" alt="Responsive image"></a>
+            <a class="dropdown-item" href=""><img src="../components/espana.png" width="15"></a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../../pt/inicio"><img src="../../web/components/brasil.png" width="20%" class="img-fluid" alt="Responsive image"></a>
-            <a class="dropdown-item" href="../../en/home"><img src="../../web/components/usa.png" width="20%" class="img-fluid" alt="Responsive image"></a>
+            <a class="dropdown-item" href="../../en/home"><img src="../components/usa.png" width="15"></a>
+            <a class="dropdown-item" href="../../pt/inicio"><img src="../components/brasil.png" width="15"></a>
           </div>
         </li>
       </ul>
