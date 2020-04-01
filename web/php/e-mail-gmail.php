@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 //require '../../vendor/autoload.php';
-require 'C:/xampp/htdocs/myzi-eder/vendor/autoload.php';
+require '../../vendor/autoload.php';
 
     function envio_gmail($email, $name, $subject, $text) {
         $mail = new PHPMailer(true);                              // Passing `true` enables exceptions

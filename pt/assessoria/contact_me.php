@@ -6,5 +6,5 @@
       $email = $_POST["email"];
       $message = $_POST["message"];
     
-    envio_gmail("$email", "$name", "Mensagem recebida do site, de $name", "$message");
+    envio_gmail("$email", "$name", "Mensagem recebida do site, de $name", "A mensagem recebida de $name diz: <br><br> $message");
 ?>
