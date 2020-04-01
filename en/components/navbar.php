@@ -21,11 +21,11 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            News
+            Newness
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="../news/">News</a>
-            <a class="dropdown-item" href="../criticism/">Criticism</a>
+            <a class="dropdown-item" href="../critique/">Critique</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -42,7 +42,7 @@
             Contact
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../advisory/">Advisory</a>
+            <a class="dropdown-item" href="../consultancy/">Consultancy</a>
             <a class="dropdown-item" href="../contact/">Contact</a>
           </div>
         </li>

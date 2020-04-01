@@ -43,7 +43,7 @@
         </nav>
       </div>
       <div class="col-lg-9 col-md-9 mx-auto sobre-maior">
-        <h2 style="text-align: center; font-family: poppins;">Enterviews</h2><br>
+        <h2 style="text-align: center; font-family: poppins;">Interviews</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/jkfETzqEkU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>
@@ -99,7 +99,7 @@
           ?>
         </div>
         <br>
-        <h2 style="text-align: center; font-family: poppins;">Essay</h2><br>
+        <h2 style="text-align: center; font-family: poppins;">Rehearsals</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/j4NfVSnjIZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>
