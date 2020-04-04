@@ -50,13 +50,13 @@
         <p>Desde el 2016, Mariana es directora residente en la Sociedad de Conciertos de Brasília (SCB), donde colabora con proyectos, programación y producción musical. Además, también actuó como profesora de dirección de orquesta en la Universidad de Brasilia en el 2019 y ya grabó en video un curso de conducción musical que muy pronto será lanzado en la plataforma digital Musicalll. </p>
         <div class="row justify-content-md-center">
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="Releasecurto.docx" target="_blank" style="">Biografía Resumida <i class="fas fa-download"></i></a>
+            <a class="btn btn-primary btn-block" href="Releaseresumida.pdf" target="_blank" style="">Biografía Resumida <i class="fas fa-download"></i></a>
           </div>
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="Releasemedio.docx" target="_blank" style="">Biografía Estándar <i class="fas fa-download"></i></a>
+            <a class="btn btn-primary btn-block" href="Releaseestandar.pdf" target="_blank" style="">Biografía Estándar <i class="fas fa-download"></i></a>
           </div>
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="Releasegrande.docx" target="_blank" style="">Biografía Extendida <i class="fas fa-download"></i></a>
+            <a class="btn btn-primary btn-block" href="Releaseextendida.pdf" target="_blank" style="">Biografía Extendida <i class="fas fa-download"></i></a>
           </div>
         </div>
         <br>

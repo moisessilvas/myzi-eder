@@ -7,23 +7,23 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
     require_once ('../../vendor/autoload.php');
 
-    function envio($email, $name, $subject, $text) {
+    function envio($titulo, $email, $senha) {
         $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
         try {
             //Server settings
-            $mail->SMTPDebug = 0;                                 // Enable verbose debug output
+            $mail->SMTPDebug = 2;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->Host = 'ns904.hostgator.com.br';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'diegommobr@gmail.com';                 // SMTP username
-            $mail->Password = 'Tiatuke12';                           // SMTP password
+            $mail->Username = 'noreply@clifops.com.br';                 // SMTP username
+            $mail->Password = 'ges2018@)!*';                           // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('diegommobr@gmail.com', 'Equipe Mariana Menezes');
-            $mail->addAddress('emaildiegomo@gmail.com', "Website Contact");    // Add a recipient
-            $mail->addReplyTo($email, $name);
+            $mail->setFrom('noreply@clifops.com.br', 'Clifops');
+            $mail->addAddress("$email", "$titulo");    // Add a recipient
+            //$mail->addReplyTo('info@example.com', 'Information');
             //$mail->addCC('emaildiegomo@gmail.com'); //para testar
             //$mail->addBCC('bcc@example.com');
 
@@ -33,11 +33,12 @@ use PHPMailer\PHPMailer\Exception;
 
             //Content
             $mail->isHTML(true);                                  // Set email format to HTML
-            $mail->Subject = $subject;
-            $mail->Body    = $text;
+            $mail->Subject = 'Bem-vindo ao Clifops!';
+            $mail->Body    = 'Olá '.$titulo.',<br/> Você foi cadastrado(a) na plataforma Clifops.<br/>Sua senha é <b>'.$senha.'</b>, troque assim que acessar a plataforma.<br/>Atenciosamente,<br/>Equipe Clifops';
+            //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
             $mail->send();
         } catch (Exception $e) {
-            //echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+            echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
         }
     }

@@ -28,110 +28,110 @@
   <link rel="stylesheet" type="text/css" href="../../web/pages/css/navbar-bio.css">
   <style type="text/css">
     #gallery {
-  padding-top: 40px;
-  @media screen and (min-width: 991px) {
-    padding: 60px 30px 0 30px;
-  }
-}
-
-.img-wrapper {
-  position: relative;
-  margin-top: 15px;
-  img {
-    width: 50%;
-  }
-}
-.img-overlay {
-  background: rgba(0,0,0,0.7);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  i {
-    color: #fff;
-    font-size: 3em;
-  }
-}
-
-#overlay {
-  background: rgba(0,0,0,0.7);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  // Removes blue highlight
-  -webkit-user-select: none;
-  -moz-user-select: none;    
-  -ms-user-select: none; 
-  user-select: none; 
-  img {
-    margin: 0;
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-    padding: 5%;
-    @media screen and (min-width:768px) {
-        width: 60%;
+      padding-top: 40px;
+      @media screen and (min-width: 991px) {
+        padding: 60px 30px 0 30px;
+      }
     }
-    @media screen and (min-width:1200px) {
+
+    .img-wrapper {
+      position: relative;
+      margin-top: 15px;
+      img {
         width: 50%;
+      }
     }
-  }
-}
+    .img-overlay {
+      background: rgba(0,0,0,0.7);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      i {
+        color: #fff;
+        font-size: 3em;
+      }
+    }
 
-#nextButton {
-  color: #fff;
-  font-size: 2em;
-  transition: opacity 0.8s;
-  &:hover {
-    opacity: 0.7;
-  }
-  @media screen and (min-width:768px) {
-    font-size: 3em;
-  }
-}
+    #overlay {
+      background: rgba(0,0,0,0.7);
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      // Removes blue highlight
+      -webkit-user-select: none;
+      -moz-user-select: none;    
+      -ms-user-select: none; 
+      user-select: none; 
+      img {
+        margin: 0;
+        width: 80%;
+        height: auto;
+        object-fit: contain;
+        padding: 5%;
+        @media screen and (min-width:768px) {
+          width: 60%;
+        }
+        @media screen and (min-width:1200px) {
+          width: 50%;
+        }
+      }
+    }
 
-#prevButton {
-  color: #fff;
-  font-size: 2em;
-  transition: opacity 0.8s;
-  &:hover {
-    opacity: 0.7;
-  }
-  @media screen and (min-width:768px) {
-    font-size: 3em;
-  }
-}
+    #nextButton {
+      color: #fff;
+      font-size: 2em;
+      transition: opacity 0.8s;
+      &:hover {
+        opacity: 0.7;
+      }
+      @media screen and (min-width:768px) {
+        font-size: 3em;
+      }
+    }
 
-#exitButton {
-  color: #fff;
-  font-size: 2em;
-  transition: opacity 0.8s;
-  position: absolute;
-  top: 50px;
-  right: 15px;
-  &:hover {
-    opacity: 0.7;
-  }
-  @media screen and (min-width:768px) {
-    font-size: 3em;
-  }
-}
+    #prevButton {
+      color: #fff;
+      font-size: 2em;
+      transition: opacity 0.8s;
+      &:hover {
+        opacity: 0.7;
+      }
+      @media screen and (min-width:768px) {
+        font-size: 3em;
+      }
+    }
 
-.mostrar{
-  width: 30%;
-  height: 30%;
-}
+    #exitButton {
+      color: #fff;
+      font-size: 2em;
+      transition: opacity 0.8s;
+      position: absolute;
+      top: 50px;
+      right: 15px;
+      &:hover {
+        opacity: 0.7;
+      }
+      @media screen and (min-width:768px) {
+        font-size: 3em;
+      }
+    }
+
+    .mostrar{
+      width: 30%;
+      height: 30%;
+    }
 
   </style>
 </head>
@@ -371,15 +371,40 @@
                       </div>
                     </div>
                   </div>
-                  </div>
-                </div><!-- End row -->
-              </div><!-- End image gallery -->
-            </div><!-- End container --> 
-          </section>
-        </div>
+                  <?php
+                  require_once('../../administrator/pages/db.class.php');
+                  $objDb = new db();
+                  $link = $objDb->conecta_mysql();
+                  $sqls = " SELECT * FROM photo";
+                  $resultado_ids = mysqli_query($link, $sqls);
+                  if($resultado_ids){
+                    while($registros = mysqli_fetch_array($resultado_ids, MYSQLI_ASSOC)){
+                      $numero = $registros['id_photo'];
+                      ?>
+                      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 image">
+                        <div class="img-wrapper">
+                          <a href="../../administrator/pages/<?php echo $registros['file_name'];?>"><img src="../../administrator/pages<?php echo $registros['file_name'];?>" class="img-responsive"></a>
+                          <div class="img-overlay">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <?php
+                    }
+                  }
+                  else {
+                    echo 'Erro na consulta dos emails no banco de dados!';
+                  }
+                  ?>
+                </div>
+              </div><!-- End row -->
+            </div><!-- End image gallery -->
+          </div><!-- End container --> 
+        </section>
       </div>
     </div>
   </div>
+</div>
 
 <!--
   <ul class="gallery_box">
@@ -417,26 +442,26 @@
 </ul>
 -->
 
-  <hr>
+<hr>
 
-  <!-- Footer -->
-  <?php include '../components/footer.php';?>
+<!-- Footer -->
+<?php include '../components/footer.php';?>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
-  <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
+<script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="../../web/pages/js/clean-blog.min.js"></script>
-  <script type="text/javascript">
+<!-- Custom scripts for this template -->
+<script src="../../web/pages/js/clean-blog.min.js"></script>
+<script type="text/javascript">
     // Gallery image hover
-$( ".img-wrapper" ).hover(
-  function() {
-    $(this).find(".img-overlay").animate({opacity: 1}, 600);
-  }, function() {
-    $(this).find(".img-overlay").animate({opacity: 0}, 600);
-  }
-);
+    $( ".img-wrapper" ).hover(
+      function() {
+        $(this).find(".img-overlay").animate({opacity: 1}, 600);
+      }, function() {
+        $(this).find(".img-overlay").animate({opacity: 0}, 600);
+      }
+      );
 
 // Lightbox
 var $overlay = $('<div id="overlay"></div>');
@@ -515,7 +540,7 @@ $exitButton.click(function() {
   // Fade out the overlay
   $("#overlay").fadeOut("slow");
 });
-  </script>
+</script>
 
 </body>
 

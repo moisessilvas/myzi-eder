@@ -38,25 +38,25 @@
     <div class="row">
       <div class="col-lg-10 col-md-10 mx-auto sobre-maior">
         <br>
-        <h2 style="text-align: center; font-family: poppins;">Biography</h2>
-        <p>Mariana Menezes is from Uberaba, Minas Gerais, where she started her music studies at 6 years old, graduating in transversal flute by the State Conservatory Music Renato Frateschi. Ms. Menezes is a Bachelor of Music with a conducting major at the University of Brasília, and a Master of Music in Orchestral Conducting at the University of Manitoba, Canada. She also specialized on conducting at the OSESP Academy – São Paulo Symphony Orchestra.</p>
+        <h2 style="text-align: center; font-family: poppins;">Bio</h2>
+        <p>Mariana Menezes was born in Uberaba, Brazil, where she studied flute at the Renato Frateschi State Conservatory. Her degrees include a bachelor’s degree in Music with a Conducting major at the University of Brasilia; Master of Music in Orchestra Conducting at the University of Manitoba, Canada; and a specialization course at the São Paulo State Symphony Orchestra (OSESP) Conducting Academy.</p>
 
-        <p>Having her first experiences as a conductor at 13 years old Mariana studied with maestros from various countries, like Portugal, Japan, United Kingdom, Italy, Estonia, Argentina, Germany, and the United States. She completed your formation with many courses, masterclasses, and workshops with world-renowned conductors like Riccardo Muti (Principal Conductor of the Chicago Symphony Orchestra), Colin Metters (Professor emeritus at the Royal Academy of Music from London), Arvo Volmer (Adelaide Symphony Orchestra, Austrália), Giancarlo Guerrero (Nashville Symphony e Cleveland Orchestra, EUA) e Neil Thomson (Goiás Philharmonic Orchestra). In 2016 Mariana was the only woman selected in conducting class in the competitive Campos do Jordão International Winter Festival.</p>
+        <p>Mariana has studied with masters and maestros from various countries, such as Portugal, Japan, United Kingdom, Italy, Estonia, Argentina, Germany and the United States. Her music formation includes masterclasses with Riccardo Muti (Chicago Symphony Orchestra), Colin Metters (professor emeritus at the Royal Academy of Music, London), Arvo Volmer (Adelaide Symphony Orchestra), Giancarlo Guerrero (Nashville Symphony and Cleveland Orchestra, USA), and Neil Thomsom (Goiás Philarmonic Orchestra, Brazil). Furthermore, Mariana was the only female conductor selected for the Campos do Jordão International Winter Festival conducting class, in 2016.</p>
 
-        <p>Also in 2016, Mariana was a member of the first edition from Osesp’s Conducting Academy - São Paulo Symphony Orchestra  - where she worked and conducted the whole year under the mentoring of Marin Alsop (principal conductor of the São Paulo Symphony Orchestra, Brazil, and the Baltimore Symphony Orchestra, EUA).</p>
+        <p>Also in 2016, Mariana joined the first edition of the São Paulo State Symphony Orchestra Conducting Academy. She studied, worked and conducted under the guidance of Marin Alsop (OSESP chief conductor at the time, and also conductor at the Baltimore Symphony Orchestra). Currently recognized as one of the youngest female conductors in the country, Mariana Menezes performed at the podium of renowned orchestras, such as the São Paulo State Symphony Orchestra and the Heliopolis Symphony Orchestra, at Sala São Paulo concert hall; as well as Santo André Symphony Orchestra, Theatro da Paz Symphony Orchestra (Belém, Brazil), João Pessoa Symphony, and the Atlantic Coast Orchestra (Portugal).</p>
 
         <p>She is known as one of the youngest conductors in the spotlight in the current Brazilian musical scenario, Mariana had already acted in the podium from great orchestras, as the São Paulo Symphony Orchestra (OSESP) and the Heliópolis Symphony Orchestra, in São Paulo room; and also the Atlantic Coast Orchestra (Portugal), the Santo André Symphony Orchestra (Brazil), the João Pessoa Symphony Orchestra (Brazil), the National Theater Cláudio Santoro Symphony Orchestra (Brazil) e the Theatro da Paz Symphony Orchestra(Brazil).</p>
 
-        <p>Since 2016, Mariana is a Resident Conductor of the Sociedade de Concertos de Brasília (SCB), collaborating with projects, schedules and music production of the institution. Furthermore, Mariana was a professor of Regency at the University of Brasilia in 2019 and recorded your on-line regency course that is about to be released in the digital platform Musicalll.</p>
+        <p>Ever since 2016, Mariana Menezes is the resident conductor of the Brasilia Concert Society orchestra (OSCB), which promotes music concerts as well as a diversity of musical projects and initiatives in Brazil’s capital city. Furthermore, Mariana worked as Conducting and Theory Professor at the University of Brasilia during the year of 2019 and recorded her online conducting course which is about to be released in the digital platform Musicalll.com.</p>
         <div class="row justify-content-md-center">
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="Releasecurto.docx" target="_blank" style="">Short Biography <i class="fas fa-download"></i></a>
+            <a class="btn btn-primary btn-block" href="Shortrelease.pdf" target="_blank" style="">Download Short Bio <i class="fas fa-download"></i></a>
           </div>
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="Releasemedio.docx" target="_blank" style="">Standart Biography <i class="fas fa-download"></i></a>
+            <a class="btn btn-primary btn-block" href="Mid-sizedrelease.pdf" target="_blank" style="">Download Mid-Sized Bio <i class="fas fa-download"></i></a>
           </div>
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="Releasegrande.docx" target="_blank" style="">Extended Biography <i class="fas fa-download"></i></a>
+            <a class="btn btn-primary btn-block" href="Extendedrelease.pdf" target="_blank" style="">Download Extended Bio <i class="fas fa-download"></i></a>
           </div>
         </div>
       </div>

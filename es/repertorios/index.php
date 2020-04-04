@@ -33,36 +33,36 @@
   <!-- Page Header -->
   <img src="../../web/pages/img/repertorios.jpg" class="tentativa">
   <br><br>
-  <h2 style="text-align: center; font-family: poppins;">Lista de Repertório</h2><br>
+  <h2 style="text-align: center; font-family: poppins;">Lista de Repertorio</h2><br>
   <!-- Main Content -->
   <div class="container" id="menu">
     <div class="row">
       <div class="col-lg-3 col-md-3 justify-content-md-center">
         <nav class="nav flex-column justify-content-center">
           <a class="text-center nav-link letra" href="#brasil">Brasil</a>
-          <a class="text-center nav-link letra" href="#manitoba">University of Manitoba</a>
-          <a class="text-center nav-link letra" href="#unb">University of Brasília</a>
-          <a class="text-center nav-link letra" href="#escola-musica">Brasilia School of Music String Orchestra</a>
-          <a class="text-center nav-link letra" href="#outras-apresentacoes">Other concerts</a>
-          <a class="text-center nav-link letra" href="#festivais">Festivals, workshops and masterclasses</a>
-          <a class="text-center nav-link letra" href="#graduacao">Undergraduate program</a>
+          <a class="text-center nav-link letra" href="#manitoba">Universidad de Manitoba</a>
+          <a class="text-center nav-link letra" href="#unb">Universidad de Brasília</a>
+          <a class="text-center nav-link letra" href="#escola-musica">Orquesta de Cuerdas de la Escuela de Música de Brasilia</a>
+          <a class="text-center nav-link letra" href="#outras-apresentacoes">Otros conciertos</a>
+          <a class="text-center nav-link letra" href="#festivais">Festivales, talleres y clases magistrales.</a>
+          <a class="text-center nav-link letra" href="#graduacao">Programa de pregrado</a>
         </nav>
       </div>
       <div class="col-lg-9 col-md-9 mx-auto sobre-maior">
 
         <div class="card" id="brasil">
           <div class="card-body repertorios">
-          <p><b>Repertoire conducted in Concerts at:</b></p>
+          <p><b>Repertorio realizado en Conciertos en:</b></p>
             <ul>
-              <li>São Paulo Symphony Orchestra (Brazil)</li>
-              <li>University of Brasilia (as conducting teacher)</li>
-              <li>Minas Gerais Philarmonic Orchestra</li>
-              <li>National Theater’s Symphony Orchestra (Brazil)</li>
-              <li>Theatro da Paz Symphony Orchestra</li>
-              <li>Colin Metters’ Conducting Masterclass (Portugal)</li>
-              <li>Festival Internacional de Campos do Jordão (Brazil)</li>
-              <li>Santo André Symphony Orchestra (Brazil)</li>
-              <li>João Pessoa Symphony Orchestra (Brazil)</li>
+              <li>Orquesta Sinfónica de São Paulo (Brasil)</li>
+              <li>Universidad de Brasilia (as conducting teacher)</li>
+              <li>Orquesta Filarmónica de Minas Gerais</li>
+              <li>Orquesta Sinfónica del Teatro Nacional(Brasil)</li>
+              <li>Orquesta Sinfónica Theatro da Paz Symphony Orchestra</li>
+              <li>Clase magistral conductora Colin Metters (Portugal)</li>
+              <li>Festival Internacional de Campos do Jordão (Brasil)</li>
+              <li>Orquesta Sinfónica de Santo André Symphony Orchestra (Brasil)</li>
+              <li>Orquesta Sinfónica de João Pessoa Symphony Orchestra (Brasil)</li>
             </ul>
 
             <b>WAGNER</b><br>
@@ -174,7 +174,7 @@
         <br>
         <div class="card" id="manitoba">
           <div class="card-body repertorios">
-            <p><b>Repertoire conducting at the University of Manitoba (2014 - 2015) </b></p>
+            <p><b>Repertorio de dirección en la Universidad de Manitoba (2014 - 2015) </b></p>
 
             <b>SCHUBERT</b><br>
             - Symphony in B minor <br><br>
@@ -236,7 +236,7 @@
         <div class="card" id="unb">
           <div class="card-body repertorios">
 
-            <p><b>Repertoire rehearsed with the Community Symphony Choir and the Orchestra of the University of Brasília as Assistant Conductor  </b></p>
+            <p><b>Repertorio ensayado con el Coro Sinfónico Comunitario y la Orquesta de la Universidad de Brasilia como Directora Asistente  </b></p>
 
               <b>GIOACHINO ROSSINI</b><br>
               - Petite Messe Solennelle <br><br>
@@ -289,7 +289,7 @@
         <div class="card" id="escola-musica">
           <div class="card-body repertorios">
 
-            <p><b>Repertoire conducted in concerts with Brasilia School of Music String Orchestra in 2010 </b></p>
+            <p><b>Repertorio realizado en conciertos con la Orquesta de Cuerdas de la Escuela de Música de Brasilia en 2010 </b></p>
 
               <b>EDVARD GRIEG</b><br>
               - Peer Gynt Suite no. 1, Opus 46, Aase’s Death<br><br>
@@ -326,7 +326,7 @@
         <div class="card" id="outras-apresentacoes">
           <div class="card-body repertorios">
 
-            <p><b>Relevant repertoire conducted in other concerts </b></p>
+            <p><b>Repertorio relevante realizado en otros conciertos. </b></p>
 
               <b>2008</b><br>
               - Concertino da Camara pour Saxophone Alto et Onze Instruments, by Jacques Ibert<br>
@@ -363,7 +363,7 @@
         <div class="card" id="festivais">
           <div class="card-body repertorios">
 
-            <p><b>Pieces Rehearsed during festivals, workshops and masterclasses </b></p>
+            <p><b>Piezas ensayadas durante festivales, talleres y clases magistrales.</b></p>
 
               <b>2008</b><br>
               - <b>Brasilia Winter Music Festival</b>: Mini Concerto Grosso for String
@@ -412,7 +412,7 @@
         <br>
         <div class="card" id="graduacao">
           <div class="card-body repertorios">
-            <p><b>Other pieces studied during the Undergraduate program </b></p>
+            <p><b>Otras piezas estudiadas durante el programa de pregrado</b></p>
 
               <b>LUDWIG VAN BEETHOVEN</b><br>
               - Egmont, Op. 84<br>

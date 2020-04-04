@@ -8,19 +8,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema mtamar06
+-- Schema mtamar06_site
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema mtamar06
+-- Schema mtamar06_site
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mtamar06` DEFAULT CHARACTER SET utf8 ;
-USE `mtamar06` ;
+CREATE SCHEMA IF NOT EXISTS `mtamar06_site` DEFAULT CHARACTER SET utf8 ;
+USE `mtamar06_site` ;
 
 -- -----------------------------------------------------
--- Table `mtamar06`.`concerto`
+-- Table `mtamar06_site`.`concerto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mtamar06`.`concerto` (
+CREATE TABLE IF NOT EXISTS `mtamar06_site`.`concerto` (
   `idconcerto` INT(11) NOT NULL AUTO_INCREMENT,
   `nome_evento` VARCHAR(255) NOT NULL,
   `nome_concerto` VARCHAR(255) NOT NULL,
@@ -33,9 +33,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `mtamar06`.`photo`
+-- Table `mtamar06_site`.`photo`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mtamar06`.`photo` (
+CREATE TABLE IF NOT EXISTS `mtamar06_site`.`photo` (
   `id_photo` INT(11) NOT NULL AUTO_INCREMENT,
   `file_name` VARCHAR(255) NOT NULL,
   `upload_time` VARCHAR(255) NOT NULL,
@@ -45,9 +45,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `mtamar06`.`user`
+-- Table `mtamar06_site`.`user`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mtamar06`.`user` (
+CREATE TABLE IF NOT EXISTS `mtamar06_site`.`user` (
   `id_user` INT(11) NOT NULL AUTO_INCREMENT,
   `name_user` VARCHAR(255) NOT NULL,
   `email_user` VARCHAR(255) NOT NULL,
@@ -61,9 +61,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `mtamar06`.`video`
+-- Table `mtamar06_site`.`video`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mtamar06`.`video` (
+CREATE TABLE IF NOT EXISTS `mtamar06_site`.`video` (
   `id_video` INT(11) NOT NULL AUTO_INCREMENT,
   `titulo` VARCHAR(255) NOT NULL,
   `link_youtube` TEXT NOT NULL,
@@ -75,9 +75,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `mtamar06`.`email`
+-- Table `mtamar06_site`.`email`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mtamar06`.`email` (
+CREATE TABLE IF NOT EXISTS `mtamar06_site`.`email` (
   `idemail` INT NOT NULL AUTO_INCREMENT,
   `email` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`idemail`))

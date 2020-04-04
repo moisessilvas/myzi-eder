@@ -168,7 +168,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-3 justify-content-md-center">
         <nav class="nav flex-column justify-content-center">
-          <b><a class="text-center nav-link letra" href="../images/">Images</a></b>
+          <b><a class="text-center nav-link letra" href="../photos/">Photos</a></b>
           <a class="text-center nav-link letra" href="../videos/">Videos</a>
         </nav>
       </div>

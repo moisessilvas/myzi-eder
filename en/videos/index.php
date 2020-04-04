@@ -38,7 +38,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-3 justify-content-md-center">
         <nav class="nav flex-column justify-content-center">
-          <a class="text-center nav-link letra" href="../images/">Images</a>
+          <a class="text-center nav-link letra" href="../photos/">Photos</a>
           <b><a class="text-center nav-link letra" href="../videos/">Videos</a></b>
         </nav>
       </div>
@@ -68,7 +68,7 @@
         <div class="row justify-content-md-center">
           <div class="col-sm"></div>
           <div class="col-sm">
-            <a class="btn btn-primary btn-block" href="https://m.soundcloud.com/alvarohenrique/bravo-72-190217-mariana-menezes" target="_blank" style="">Ouça aqui <i class="fas fa-podcast"></i></a>
+            <a class="btn btn-primary btn-block" href="https://m.soundcloud.com/alvarohenrique/bravo-72-190217-mariana-menezes" target="_blank" style="">Listen to <i class="fas fa-podcast"></i></a>
           </div>
           <div class="col-sm"></div>
         </div>
@@ -99,7 +99,7 @@
           ?>
         </div>
         <br>
-        <h2 style="text-align: center; font-family: poppins;">Rehearsals</h2><br>
+        <h2 style="text-align: center; font-family: poppins;">Rehearsal</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/j4NfVSnjIZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>

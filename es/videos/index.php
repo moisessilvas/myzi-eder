@@ -46,7 +46,7 @@
         <h2 style="text-align: center; font-family: poppins;">Entrevistas</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/jkfETzqEkU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <br>
+          <br><!--
           <?php
           require_once('../../administrator/pages/db.class.php');
           $objDb = new Db();
@@ -62,7 +62,7 @@
           }else{
             echo 'Erro na consulta';
           }
-          ?>
+          ?>-->
         </div>
         <br>
         <div class="row justify-content-md-center">
@@ -80,7 +80,7 @@
           <iframe width="720" height="480" src="https://www.youtube.com/embed/uhPszkoeAfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br>
           <iframe width="720" height="480" src="https://www.youtube.com/embed/02gJlaN6q_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <br>
+          <br><!--
           <?php
           require_once('../../administrator/pages/db.class.php');
           $objDb = new Db();
@@ -96,13 +96,13 @@
           }else{
             echo 'Erro na consulta';
           }
-          ?>
+          ?>-->
         </div>
         <br>
         <h2 style="text-align: center; font-family: poppins;">Ensayos</h2><br>
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/j4NfVSnjIZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <br>
+          <br><!--
           <?php
           require_once('../../administrator/pages/db.class.php');
           $objDb = new Db();
@@ -118,7 +118,7 @@
           }else{
             echo 'Erro na consulta';
           }
-          ?>
+          ?>-->
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@
           <a class="nav-link" href="../home/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../bio/">Biography</a>
+          <a class="nav-link" href="../bio/">Bio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../repertoire/">Repertoire</a>
@@ -21,11 +21,11 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Newness
+            News
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="../news/">News</a>
-            <a class="dropdown-item" href="../critique/">Critique</a>
+            <a class="dropdown-item" href="../critics/">Critics</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -33,29 +33,27 @@
             Media
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../images/">Images</a>
+            <a class="dropdown-item" href="../photos/">Photos</a>
             <a class="dropdown-item" href="../videos/">Videos</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Contact
+            Management
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../consultancy/">Consultancy</a>
-            <a class="dropdown-item" href="../contact/">Contact</a>
+            <a class="dropdown-item" href="../advisory/">Advisory</a>
+            <a class="dropdown-item" href="../newsletters/">Newsletter</a>
           </div>
         </li>
-        <li class="nav-item dropdown" style="background-color: transparent;">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Language
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center">
-            <a class="dropdown-item" href=""><img src="../components/usa.png" width="15"></a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../../pt/inicio"><img src="../components/brasil.png" width="15"></a>
-            <a class="dropdown-item" href="../../es/inicio"><img src="../components/espana.png" width="15"></a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href=""><img src="../components/USA.png" width="20"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../es/inicio"><img src="../components/ESP.png" width="20"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pt/inicio"><img src="../components/BRA.png" width="20"></a>
         </li>
       </ul>
     </div>

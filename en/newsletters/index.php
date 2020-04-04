@@ -37,7 +37,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p style="text-align: center;">Fill out the form below to receive our newsletter and blog news:</p>
+        <p style="text-align: center;">Fill out the form below to receive news in first hand:</p>
         <form action="insert.php" method="POST">
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">

@@ -168,13 +168,13 @@
     <div class="row">
       <div class="col-lg-3 col-md-3 justify-content-md-center">
         <nav class="nav flex-column justify-content-center">
-          <b><a class="text-center nav-link letra" href="../imagens/">Imagens</a></b>
-          <a class="text-center nav-link letra" href="#">Vídeos</a>
+          <b><a class="text-center nav-link letra" href="">Imágenes</a></b>
+          <a class="text-center nav-link letra" href="../videos/">Vídeos</a>
         </nav>
       </div>
       <div class="col-lg-9 col-md-9 mx-auto sobre-maior">
         <div class="row justify-content-md-center col-lg-10 col-md-10 mx-auto">
-          <h2 style="text-align: center; font-family: poppins;">Imagens</h2><br>
+          <h2 style="text-align: center; font-family: poppins;">Imágenes</h2><br>
           <section id="gallery">
             <div class="container">
               <div id="image-gallery">

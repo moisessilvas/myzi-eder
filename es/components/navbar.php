@@ -11,7 +11,7 @@
           <a class="nav-link" href="../inicio/">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../bio/">Biografia</a>
+          <a class="nav-link" href="../bio/">Biografía</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../repertorios/">Repertorio</a>
@@ -46,16 +46,14 @@
             <a class="dropdown-item" href="../contacto/">Contacto</a>
           </div>
         </li>
-        <li class="nav-item dropdown" style="background-color: transparent;">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Idioma
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center">
-            <a class="dropdown-item" href=""><img src="../components/espana.png" width="15"></a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../../en/home"><img src="../components/usa.png" width="15"></a>
-            <a class="dropdown-item" href="../../pt/inicio"><img src="../components/brasil.png" width="15"></a>
-          </div>
+        <li class="nav-item bandeira">
+          <a class="nav-link" href="../../es/inicio"><img src="../components/ESP.png" width="20"></a>
+        </li>
+        <li class="nav-item bandeira">
+          <a class="nav-link" href="../../pt/inicio"><img src="../components/BRA.png" width="20"></a>
+        </li>
+        <li class="nav-item bandeira">
+          <a class="nav-link" href="../../en/home"><img src="../components/usa.png" width="20"></a>
         </li>
       </ul>
     </div>

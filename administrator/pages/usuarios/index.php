@@ -1,8 +1,8 @@
 <?php
-  session_start();
-  if(!isset($_SESSION['login'])){
-    header('Location: index.php?erro=1');
-  }
+session_start();
+if(!isset($_SESSION['login'])){
+  header('Location: index.php?erro=1');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,6 +67,7 @@
                     <tr>
                       <th>Nome</th>
                       <th>E-mail</th>
+                      <th style="text-align: center;">Editar</th>
                       <th style="text-align: center;">Excluir</th>
                     </tr>
                   </thead>
@@ -74,6 +75,7 @@
                     <tr>
                       <th>Nome</th>
                       <th>E-mail</th>
+                      <th style="text-align: center;">Editar</th>
                       <th style="text-align: center;">Excluir</th>
                     </tr>
                   </tfoot>
@@ -92,9 +94,13 @@
                           <td><?php echo $registros['name_user']?></td>
                           <td><?php echo $registros['email_user']?></td>
                           <td style="text-align: center;">
-                            <a href="#" class="btn btn-danger btn-circle" data-toggle="modal" data-target="#ModalApagar"
-                            data-id="<?php echo $registros['id_user']; ?>">
-                            <i class="fas fa-trash"></i>
+                            <div class="item_lista">
+                              <span class="btn btn-warning btn-circle" data-toggle="modal" data-target="#exampleModal" data-whatevernome="<?php echo $registros['name_user']; ?>" data-id="<?php echo $registros['id_user']; ?>" data-whatevertel="<?php echo $registros['email_user']; ?>" data-pagenda="<?php echo $registros['photo_permission']?>" data-pmensagens="<?php echo $registros['concert_permission']?>" data-psistema="<?php echo $registros['video_permission']?>"><i class="fas fa-cogs"></i></span>
+                            </td>
+                            <td style="text-align: center;">
+                              <a href="#" class="btn btn-danger btn-circle" data-toggle="modal" data-target="#ModalApagar"
+                              data-id="<?php echo $registros['id_user']; ?>">
+                              <i class="fas fa-trash"></i>
                             </a>
                           </td>
                         </tr>
@@ -154,6 +160,53 @@
     </div>
   </div>
 
+  <div id="exampleModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Editar</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h5 class="box-title"></h5>
+        </div>
+        <div class="modal-body">
+          <div class="box">
+            <form action="edit.php" method="POST">
+              <div class="form-group row">
+                <div class="col-sm-12 mb-3 mb-sm-0">
+                  <input type="text" class="form-control form-control-user" placeholder="Nome" name="nome" id="recipient-name">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-user" placeholder="Email" name="email" id="telefone">
+              </div>
+              <hr>
+              <p> Este usuário tem as seguintes permissões:</p>
+              <div class="form-group row">
+                <div class="col-sm-1 mb-3 mb-sm-0"></div>
+                <div class="col-sm-11 mb-3 mb-sm-0">
+                  <input type="checkbox" name="usuarios" id="agenda"> Concertos</input>
+                </div>
+                <div class="col-sm-1 mb-3 mb-sm-0"></div>
+                <div class="col-sm-11 mb-3 mb-sm-0">
+                  <input type="checkbox" name="imagens" id="mensagens"> Imagens</input>
+                </div>
+                <div class="col-sm-1 mb-3 mb-sm-0"></div>
+                <div class="col-sm-11 mb-3 mb-sm-0">
+                  <input type="checkbox" name="videos" id="sistema"> Vídeos</input>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <input type="hidden" class="form-control" name="id" id="id">
+                <button type="submit" class="btn btn-danger">Atualizar</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+              </div>
+            </form>
+          </div>   
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript-->
   <script src="../vendor/jquery/jquery.min.js"></script>
@@ -174,6 +227,49 @@
 
   <script type="text/javascript">
    $('#ModalApagar').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var recipient = button.data('id') // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('.modal-footer #id').val(recipient)
+    })
+  </script>
+
+  <script type="text/javascript">
+    $('#exampleModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+
+      var recipient = button.data('whatever') // Extract info from data-* attributes
+      var recipientnome = button.data('whatevernome')
+      var recipienttel = button.data('whatevertel')
+
+      var recipient4 = button.data('pagenda')
+      var recipient5 = button.data('pmensagens')
+      var recipient6 = button.data('psistema')
+      
+
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+
+      modal.find('#id-curso').val(recipient)
+      modal.find('#recipient-name').val(recipientnome)
+      modal.find('#telefone').val(recipienttel)
+
+      modal.find('.modal-body #agenda').val(recipient4)
+      modal.find('.modal-body #mensagens').val(recipient5)
+      modal.find('.modal-body #sistema').val(recipient6)
+
+      recipient4 == 1 ? ($("#agenda").prop('checked', true)) : ($("#agendaeditar").prop('checked', false));
+      recipient5 == 1 ? $("#mensagens").prop('checked', true) : $("#mensagens").prop('checked', false);
+      recipient6 == 1 ? $("#sistema").prop('checked', true) : $("#sistema").prop('checked', false);
+
+    })
+  </script>
+
+  <script type="text/javascript">
+   $('#exampleModal').on('show.bs.modal', function (event) {
       var button = $(event.relatedTarget) // Button that triggered the modal
       var recipient = button.data('id') // Extract info from data-* attributes
       // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
