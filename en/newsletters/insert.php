@@ -14,8 +14,8 @@ mysqli_query($link, $sql);
 envio_gmail_admin('Novo inscrito na newsletter', "O e-mail <b>$email</b> acabou de se inscrever para receber a newsletter de Mariana Menezes");
 envio_gmail_user($email, "Subscription on Mariana Menezes' newsletter", "Thank you for subscribe on my newsletter! For any newsness you will be informed right away!<br><br>Best Regards,<br>Mariana Menezes")
 
-//$url = '../concertos/';
-//echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
+$url = 'index.php';
+echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
 
 
 ?>

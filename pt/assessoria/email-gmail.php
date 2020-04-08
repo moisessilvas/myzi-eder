@@ -15,10 +15,10 @@ require '../../vendor/autoload.php';
             $mail->SMTPDebug = 0;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->CharSet = 'UTF-8';
-            $mail->Host = 'ns904.hostgator.com.br';  // Specify main and backup SMTP servers
+            $mail->Host = 'mtamarianamenezes.com';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'noreply@mtamarianamenezes.com';                 // SMTP username
-            $mail->Password = '';                           // SMTP password
+            $mail->Password = 'N0r&plym@r1@n@';                           // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port to connect to
 
@@ -53,10 +53,10 @@ require '../../vendor/autoload.php';
             $mail->SMTPDebug = 0;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->CharSet = 'UTF-8';
-            $mail->Host = 'ns904.hostgator.com.br';  // Specify main and backup SMTP servers
+            $mail->Host = 'mtamarianamenezes.com';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'noreply@mtamarianamenezes.com';                 // SMTP username
-            $mail->Password = '';                           // SMTP password
+            $mail->Password = 'N0r&plym@r1@n@';                           // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port to connect to
 
