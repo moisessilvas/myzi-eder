@@ -15,6 +15,7 @@ require '../../vendor/autoload.php';
             $mail->SMTPDebug = 0;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
+            $mail->CharSet = 'UTF-8';
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'diegommobr@gmail.com';             // SMTP username
             $mail->Password = 'Tiatuke12';                        // SMTP password
