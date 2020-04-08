@@ -4,7 +4,7 @@
     header('Location: index.php?erro=1');
   }
 ?>
-<?php
+<?php 
 
 $target_dir = "../img/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -50,22 +50,18 @@ if ($uploadOk == 0) {
 				//echo "Sorry, there was an error uploading your file."; Front, colocar essa mensagem na modal
 	}
 }
-
 require_once('../db.class.php');
 $objDb = new db();
 $link = $objDb->conecta_mysql();
-$nome	= $_POST['nome'];
-$email	= $_POST['concerto'];
-$data = $_POST['data'];
-$endereco = $_POST['endereco'];
+$id = $_POST['id'];
+
 $url_file = "/img/".basename($_FILES["fileToUpload"]["name"]);
-
-$sql = "INSERT INTO `concerto` (`idconcerto`, `nome_evento`, `nome_concerto`, `data`, `endereco`, `link_endereco`) VALUES (NULL, '$nome', '$email', '$data', '$endereco', '$url_file');";
-
+$sql  = "UPDATE `concerto` SET `link_endereco` = '$url_file' WHERE idconcerto = '$id';";
 mysqli_query($link, $sql);
+
+echo $sql;
 
 $url = '../concertos/';
 echo'<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
-
 
 ?>

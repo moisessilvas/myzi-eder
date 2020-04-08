@@ -59,7 +59,7 @@
       <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
       <div class="col-lg-7 col-md-12 justify-content-md-center">
         <h5><b></b></h5><br>
-        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Mariana Menezes anuncia parceria com a Equipe de Assessoria e Agenciamento Artístico da Maikai Consultoria, com a qual trabalhará na produção de seus próximos concertos e projetos artísticos.</h5>
+        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Mariana Menezes announces partnership with de Consultancy Team and Artistic Management from Maikai Consultoria. They are working together on the production of her next concerts and artistic projects.</h5>
       </div>
       <div class="col-lg-4 col-md-12 justify-content-md-center">
         <img src="../../web/pages/img/foto1.jpeg">
@@ -75,7 +75,7 @@
       </div>
       <div class="col-lg-7 col-md-12 justify-content-md-center">
         <h5><b></b></h5><br>
-        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Em 2020, durante o período de cinco semanas, Mariana será a Maestrina em Residência do renomado coro Madrigal de Brasília. A residência culminará em um concerto que abarca repertório do Século XX e XXI, cujo nome será The Gift Of Life. </h5>
+        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">In 2020, for five weeks, Mariana is the Conductor in Residence of the prestigious choir Madrigal de Brasília. The residency is going to culminate in a concert that covers reportoire from XX and XXI centuries, named 'The Gift Of Life'.</h5>
       </div>
     </div>
   </div>
@@ -85,7 +85,7 @@
       <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
       <div class="col-lg-7 col-md-12 justify-content-md-center">
         <h5><b></b></h5><br><br>
-        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Mariana continua apresentando o programa Entre Notas, da Plataforma Digital MUSICALLL. Neste ano, o programa toma dimensões ainda maiores com transmissões ao vivo no Instagram da Plataforma @musicalllofficial. <a href="https://www.youtube.com/playlist?list=PLZzV0jygZ2lUVDNAT2kEVKqu19ihleNrX" target="_blank">Confira aqui as entrevistas já realizadas.</a></h5>
+        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Mariana hosts the “digital talk show” Entre Notas, at the plataform MUSICALLL.com. This year the program takes even bigger dimensions with Live transmissions in the Instagram @musicalllofficial. <a href="https://www.youtube.com/playlist?list=PLZzV0jygZ2lUVDNAT2kEVKqu19ihleNrX" target="_blank">Click here to watch the preview interviews.</a></h5>
       </div>
       <div class="col-lg-4 col-md-12 justify-content-md-center">
         <img src="../../web/pages/img/foto3.jpeg">

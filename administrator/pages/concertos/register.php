@@ -40,7 +40,7 @@
               <div class="text-center">
                 <h1 class="h4 text-gray-900 mb-4">Adicionar Concerto</h1>
               </div>
-              <form action="insert.php" method="POST">
+              <form action="insert.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group row">
                   <div class="col-sm-12 mb-3 mb-sm-0">
                     <input type="text" class="form-control form-control-user" placeholder="Nome do Evento" name="nome">
@@ -61,7 +61,9 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-12 mb-3 mb-sm-0">
-                    <textarea type="text" class="form-control form-control-user" placeholder="Link do endereço" name="link"></textarea> 
+                    <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
+                    <label for="InputFile">Foto da Novidade</label>
+                    <input type="file" id="fileToUpload" name="fileToUpload" size="100000000">
                   </div>
                 </div>
                 <hr>

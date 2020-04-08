@@ -6,13 +6,13 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 //require '../../vendor/autoload.php';
-require '../../vendor/autoload.php';
+require 'C:/xampp/htdocs/myzi-eder/vendor/autoload.php';
 
     function envio_gmail($email, $name, $subject, $text) {
         $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
         try {
             //Server settings
-            $mail->SMTPDebug = 0;                                 // Enable verbose debug output
+            $mail->SMTPDebug = 4;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -39,8 +39,8 @@ require '../../vendor/autoload.php';
             //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
             $mail->send();
-            //echo 'Message has been sent';
+            echo 'Message has been sent';
         } catch (Exception $e) {
-            //echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+            echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
         }
     }

@@ -62,7 +62,7 @@
                 <div class="form-group row">
                   <div class="col-sm-1 mb-3 mb-sm-0"></div>
                   <div class="col-sm-11 mb-3 mb-sm-0">
-                    <input type="checkbox" name="usuarios"> Usuários</input>
+                    <input type="checkbox" name="usuarios"> Concertos</input>
                   </div>
                   <div class="col-sm-1 mb-3 mb-sm-0"></div>
                   <div class="col-sm-11 mb-3 mb-sm-0">

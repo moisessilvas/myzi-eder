@@ -20,10 +20,12 @@
 
   <!-- Custom styles for this template -->
   <link href="../../web/pages/css/clean-blog.css" rel="stylesheet">
+  <link href="../../web/pages/css/slick.css" rel="stylesheet">
+  <link href="../../web/pages/css/slick-theme.css" rel="stylesheet">
   <link href="../../web/pages/css/extern.css" rel="stylesheet">
   <link rel="stylesheet" href="../../web/pages/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="../../web/pages/css/navbar-bio.css">
-
+  <link rel="stylesheet" type="text/css" href="../../web/pages/css/card-info.css">
+  <link rel="stylesheet" href="../../web/pages/css/navbar-bio.css">
 </head>
 
 <body>
@@ -61,6 +63,15 @@
     </div>
   </div>
   <hr>
+  <section class="quotes">
+    <div class="bubble">
+      <blockquote>Não há razão mais séria para se compor música do que a renovação espiritual.
+      </blockquote>
+    <div>
+    </div>
+    <cite>Sofia Gubaidulina</cite> </div>
+    </section>
+    <hr>
   <div class="container">
       <div class="row">
         <div class="col-lg-10 col-md-10 mx-auto sobre-maior">

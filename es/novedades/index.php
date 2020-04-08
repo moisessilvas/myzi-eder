@@ -35,7 +35,7 @@
   <img src="../../web/pages/img/news.jpg" class="tentativa">
   <br>
   <!-- Main Content -->
-  <h2 style="text-align: center; font-family: poppins;">Concertos</h2>
+  <h2 style="text-align: center; font-family: poppins;">Novidades</h2>
   <br>
   <div class="container" style="text-align: left; font-family: poppins;">
     <div class="row">
@@ -53,24 +53,62 @@
       </div>
     </div>
   </div>
-
-
   <hr>
+  <div class="container" style="text-align: left; font-family: poppins;">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
+      <div class="col-lg-7 col-md-12 justify-content-md-center">
+        <h5><b></b></h5><br>
+        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Mariana Menezes anuncia su asociación con el Equipo de Asesoría Artística y Agencia de Maikai Consultoria, con que trabajará en la producción de sus próximos conciertos y proyectos artísticos.</h5>
+      </div>
+      <div class="col-lg-4 col-md-12 justify-content-md-center">
+        <img src="../../web/pages/img/foto1.jpeg">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container" style="text-align: left; font-family: poppins;">
+    <div class="row">
+      <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
+      <div class="col-lg-4 col-md-12 justify-content-md-center">
+        <img src="../../web/pages/img/foto2.jpeg">
+      </div>
+      <div class="col-lg-7 col-md-12 justify-content-md-center">
+        <h5><b></b></h5><br>
+        <h5 style="text-align: center; font-family: poppins; font-weight: 200;">
+          En 2020, durante el período de cinco semanas, Mariana será la directora en residencia del famoso coro Madrigal en Brasilia. La residencia culminará con un concierto que abarcará el repertorio de los siglos XX y XXI, cuyo nombre será <i>The Gift of Life</i></h5>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container" style="text-align: left; font-family: poppins;">
+      <div class="row">
+        <div class="col-lg-1 col-md-1 justify-content-md-center"></div>
+        <div class="col-lg-7 col-md-12 justify-content-md-center">
+          <h5><b></b></h5><br><br>
+          <h5 style="text-align: center; font-family: poppins; font-weight: 200;">Mariana continúa presentando el programa Entre Notas, de la Plataforma Digital MUSICALLL. Este año, el programa adquiere dimensiones aún mayores con transmisiones en vivo en Instagram desde la plataforma @musicalllofficial. <a href="https://www.youtube.com/playlist?list=PLZzV0jygZ2lUVDNAT2kEVKqu19ihleNrX" target="_blank">Haz clic aquí para saber más.</a></h5>
+        </div>
+        <div class="col-lg-4 col-md-12 justify-content-md-center">
+          <img src="../../web/pages/img/foto3.jpeg">
+        </div>
+      </div>
+    </div>
+    <hr>
 
-  <!-- Footer -->
-  <?php include '../components/footer.php';?>
+    <!-- Footer -->
+    <?php include '../components/footer.php';?>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
-  <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
+    <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Contact Form JavaScript -->
-  <script src="../../web/pages/js/jqBootstrapValidation.js"></script>
-  <script src="../../web/pages/js/contact_me.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="../../web/pages/js/jqBootstrapValidation.js"></script>
+    <script src="../../web/pages/js/contact_me.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="../../web/pages/js/clean-blog.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="../../web/pages/js/clean-blog.min.js"></script>
 
-</body>
+  </body>
 
-</html>
+  </html>

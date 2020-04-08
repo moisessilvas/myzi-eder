@@ -93,7 +93,7 @@
                   <h4>2020</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Mariana is the Resident Conductor of the rewarded and traditional Madrigal de Brasília. The artistic residence consists of 5 consecutive weeks of extensive work about the choir repertoire of XX and XXI centuries, culminating in a concerto of the Levino de Alcântara Concertos Series, in Brasília.</p>
+                  <p class="text-muted">Mariana is the Resident Conductor of the awarded and traditional choir Madrigal de Brasília. The artistic residence consists of 5 consecutive weeks of extensive work on the choir repertoire of XX and XXI centuries, culminating in a concerto of the Levino de Alcântara Concertos Series, in Brasília.</p>
                 </div>
               </div>
             </li>
@@ -107,130 +107,136 @@
                   <a><h4 class="subheading" href=""></h4></a>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">In 2019, at a concerto of historical relevance to the National Theater Cláudio Santoro Symphony Orchestra (OSTNCS), Mariana debuts with this orchestra.</p>
-                    <b><p class="subheading"><a href="https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2019/08/27/regida-por-maestrina-orquestra-sinfonica-faz-concerto-com-composicoes-de-mulheres.ghtml" target="_blank">Click here for more information.</a></p></b>
-                  </div>
+                  <p class="text-muted">In 2019, at a concert of historical relevance to the National Theater Cláudio Santoro Symphony Orchestra (OSTNCS), Mariana debuts with this orchestra.</p>
+                  <b><p class="subheading"><a href="https://g1.globo.com/df/distrito-federal/o-que-fazer-no-distrito-federal/noticia/2019/08/27/regida-por-maestrina-orquestra-sinfonica-faz-concerto-com-composicoes-de-mulheres.ghtml" target="_blank">Click here for more information.</a></p></b>
                 </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="../../web/pages/img/midia1.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="../../web/pages/img/midia1.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2019</h4>
+                  <h4 class="subheading"></h4>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2019</h4>
-                    <h4 class="subheading"></h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Mariana takes the temporary position of Regency and Musical Structuration Professor at the University of Brasília, contributing with the formation of young musicians and conductors, dedicating herself to bring them to the artistic career reality in music.</p>
+                <div class="timeline-body">
+                  <p class="text-muted">Mariana takes the position of Conducting and Theory Professor at the 
+                    University of Brasília, commited with the musical development of young 
+                  musicians and conductors.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="../../web/pages/img/foto4.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018</h4>
+                  <h4 class="subheading"></h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">In 2018, Mariana opens the Concerto Season of the Theatro da Paz Symphony Orchestra in Belém (Pará, Brazil) and debuts with this orchestra.</p>
+                  <b><p class="subheading"><a href="http://www.secult.pa.gov.br/noticia/concerto-com-maestria-das-mulheres-da-m%C3%BAsica-l%C3%ADrica-pelo-dia-da-mulher" target="_blank">Click here for more information</a></p></b>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="../../web/pages/img/foto2.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018</h4>
+                  <a><h4 class="subheading" href=""></h4></a>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Mariana debuts as a Guest Conductor of the São Paulo Symphony Orchestra - OSESP.</p>
+                  <b><p class="subheading"><a href="http://www.osesp.art.br/concertoseingressos/concerto.aspx?IDApresentacao=6737" target="_blank" target="_blank">Click here for more information</a></p></b>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="../../web/pages/img/tl2.jpeg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2016</h4>
+                  <h4 class="subheading"></h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Nominated Resident Conductor of the Concertos Society of Brasilia (SCB) since 2016, Mariana starts to work directly with the projects and music production of the institution and in the orchestra's season.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="../../web/pages/img/tl3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2016</h4>
+                  <a><h4 class="subheading" href=""></h4></a>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">In debut with the Santo André Symphony Orchestra and the João Pessoa Symphony Orchestra, Mariana marks her presence in the Women Conductors Movement Podium, a Conductor Lígia Amadio initiative.</p>
+                  <b><p class="subheading"><a href="http://correiodaparaiba.com.br/cultura/musica/maestrinas-que-regem-a-sinfonica-de-joao-pessoa-hoje-falam-o-correio-dos-desafios/
+                    " target="_blank">Click here for more information</a></p></b>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="../../web/pages/img/foto4.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="../../web/pages/img/tl4.jpeg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2018</h4>
-                    <h4 class="subheading"></h4>
+                    <h4>2016</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">In 2018, Mariana opens the Concerto Season of the Theatro da Paz Symphony Orchestra in Belém (Pará, Brazil) and debuts with this orchestra.</p>
-                      <b><p class="subheading"><a href="http://www.secult.pa.gov.br/noticia/concerto-com-maestria-das-mulheres-da-m%C3%BAsica-l%C3%ADrica-pelo-dia-da-mulher" target="_blank">Click here for more information</a></p></b>
-                    </div>
+                    <p class="text-muted">Mariana is selected by Marin Alsop to integrate the first Osesp’s Conducting Academy - São Paulo Symphony Orchestra  - where she is mentored by Marin Alsop and the orchestra's guest conductors throughout 2016.</p>
+                    <b><p class="subheading"><a href="https://news.umanitoba.ca/grad-student-awarded-international-conducting-fellowship/" target="_blank">Click here for more information</a></p></b>
                   </div>
-                </li>
-                <li>
-                  <div class="timeline-image">
-                    <img class="rounded-circle img-fluid" src="../../web/pages/img/foto2.jpg" alt="">
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4>2018</h4>
-                      <a><h4 class="subheading" href=""></h4></a>
-                    </div>
-                    <div class="timeline-body">
-                      <p class="text-muted">Mariana debuts as a Guest Conductor of the São Paulo Symphony Orchestra - OSESP.</p>
-                      <b><p class="subheading"><a href="http://www.osesp.art.br/concertoseingressos/concerto.aspx?IDApresentacao=6737" target="_blank" target="_blank">Click here for more information</a></p></b>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="timeline-inverted">
-                    <div class="timeline-image">
-                      <img class="rounded-circle img-fluid" src="../../web/pages/img/tl2.jpeg" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>2016</h4>
-                        <h4 class="subheading"></h4>
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">Nominated Resident Conductor of the Concertos Society of Brasilia (SCB) since 2016, Mariana starts to work directly with the projects and music production of the institution and in the orchestra's season.</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="timeline-image">
-                      <img class="rounded-circle img-fluid" src="../../web/pages/img/tl3.jpg" alt="">
-                    </div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h4>2016</h4>
-                        <a><h4 class="subheading" href=""></h4></a>
-                      </div>
-                      <div class="timeline-body">
-                        <p class="text-muted">In debut with the Santo André Symphony Orchestra and the João Pessoa Symphony Orchestra, Mariana marks her presence in the Women Conductors Movement Podium, a Conductor Lígia Amadio initiative.</p>
-                          <b><p class="subheading"><a href="http://correiodaparaiba.com.br/cultura/musica/maestrinas-que-regem-a-sinfonica-de-joao-pessoa-hoje-falam-o-correio-dos-desafios/
-                          " target="_blank">Click here for more information</a></p></b>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="timeline-inverted">
-                      <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="../../web/pages/img/tl4.jpeg" alt="">
-                      </div>
-                      <div class="timeline-panel">
-                        <div class="timeline-heading">
-                          <h4>2016</h4>
-                        </div>
-                        <div class="timeline-body">
-                          <p class="text-muted">Mariana is selected by Marin Alsop to integrate the first Osesp’s Conducting Academy - São Paulo Symphony Orchestra  - where she is mentored by Marin Alsop and the orchestra's guest conductors throughout 2016.</p>
-                          <b><p class="subheading"><a href="https://news.umanitoba.ca/grad-student-awarded-international-conducting-fellowship/" target="_blank">Click here for more information</a></p></b>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="../../web/pages/img/tl5.jpg" alt="">
-                      </div>
-                      <div class="timeline-panel">
-                        <div class="timeline-heading">
-                          <h4>2015</h4>
-                          <a><h4 class="subheading" href=""></h4></a>
-                        </div>
-                        <div class="timeline-body">
-                          <p class="text-muted">Rewarded with the Marcel Desautels Golden Medal, Mariana finishes her Master of Music in Instrumental Conducting Performance as the student of the best academic and artistic performance at the Faculty of Music at the University of Manitoba in 2015.</p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
                 </div>
-              </div>
-            </div>
-          </section>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="../../web/pages/img/tl5.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2015</h4>
+                    <a><h4 class="subheading" href=""></h4></a>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Awarded with the Marcel Desautels Golden Medal, Mariana completes her 
+                      Master of Music in Instrumental Conducting Performance’s  degree as 
+                      the student with  best academic and artistic performance achievements 
+                      at the Faculty of Music at the University of Manitoba in 2015.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <!-- Footer -->
-          <?php include '../components/footer.php'?>
+    <!-- Footer -->
+    <?php include '../components/footer.php'?>
 
-          <!-- Bootstrap core JavaScript -->
-          <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
-          <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../web/pages/vendor/jquery/jquery.min.js"></script>
+    <script src="../../web/pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-          <!-- Custom scripts for this template -->
-          <script src="../../web/pages/js/clean-blog.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="../../web/pages/js/clean-blog.min.js"></script>
 
 
-        </body>
+  </body>
 
-        </html>
+  </html>

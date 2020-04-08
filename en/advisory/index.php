@@ -71,10 +71,10 @@
         </form>
         <hr>
         <div class="card">
-          <h5 class="card-header">Consultancy Contacts</h5>
-          <div class="card-body" style="margin-top: -5%">
-            <p class="card-title"><b>Phone number:</b> +55 61 9</p>
-            <p class="card-text"><b>E-mail:</b> contato@maikaiconsultoria.com.br</p>
+          <h5 class="card-header">Advisory</h5>
+          <div class="card-body">
+            <h5 class="card-title">Phone number: +55 61 9 85014165</h5>
+            <p class="card-text">Personal Management: contato@maikaiconsultoria.com.br</p>
           </div>
         </div>
       </div>

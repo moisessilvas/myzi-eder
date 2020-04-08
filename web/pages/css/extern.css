@@ -58,7 +58,7 @@ p {
 header.sub {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #610000;
+  background-color: #4d0000;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
@@ -189,4 +189,9 @@ img{ max-width:100%;}
     right: 0;
     left: 0;
     z-index: 1030;
+}
+
+.navbar-nav > li.nav-item > .bandeira {
+    padding: 10px 10px;
+    color: #fff;
 }
