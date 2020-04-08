@@ -15,16 +15,16 @@ require '../../vendor/autoload.php';
             $mail->SMTPDebug = 0;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->CharSet = 'UTF-8';
-            $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
+            $mail->Host = 'ns904.hostgator.com.br';                       // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'diegommobr@gmail.com';             // SMTP username
-            $mail->Password = 'Tiatuke12';                        // SMTP password
+            $mail->Username = 'noreply@mtamarianamenezes.com';             // SMTP username
+            $mail->Password = '';                        // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('diegommobr@gmail.com', 'Equipe Mariana Menezes');
-            $mail->addAddress('diegommobr@gmail.com', 'Maikai Consultoria');
+            $mail->setFrom('noreply@mtamarianamenezes.com', 'Equipe Mariana Menezes');
+            $mail->addAddress('contato@maikaiconsultoria.com.br', 'Maikai Consultoria');
             //$mail->addAddress('atendimento@maikaiconsultoria.com', 'Maikai Consultoria');    // Add a recipient
             //$mail->addCC('emaildiegomo@gmail.com'); //para testar
             //$mail->addBCC('bcc@example.com');
@@ -53,15 +53,15 @@ require '../../vendor/autoload.php';
             $mail->SMTPDebug = 0;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
             $mail->CharSet = 'UTF-8';
-            $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
+            $mail->Host = 'ns904.hostgator.com.br';                       // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'diegommobr@gmail.com';             // SMTP username
-            $mail->Password = 'Tiatuke12';                        // SMTP password
+            $mail->Username = 'noreply@mtamarianamenezes.com';             // SMTP username
+            $mail->Password = '';                        // SMTP password
             $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465;                                    // TCP port to connect to
 
             //Recipients
-            $mail->setFrom('diegommobr@gmail.com', 'Equipe Mariana Menezes');
+            $mail->setFrom('noreply@mtamarianamenezes.com', 'Equipe Mariana Menezes');
             $mail->addAddress($email, $email);                    // Add a recipient
             //$mail->addCC('emaildiegomo@gmail.com');             //para testar
             //$mail->addBCC('bcc@example.com');
