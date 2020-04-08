@@ -41,25 +41,25 @@
         <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
         <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
         <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-        <form action="contact_me.php" method="POST" name="sentMessage" id="contactForm" novalidate>
+        <form action="contact_me.php" method="POST" novalidate>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Name</label>
-              <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Por favor, preencha o seu nome.">
+              <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Por favor, preencha o seu nome.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>E-mail</label>
-              <input type="email" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Por favor, preencha o seu endereço de e-mail.">
+              <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required data-validation-required-message="Por favor, preencha o seu endereço de e-mail.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Message</label>
-              <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Por favor, digite uma mensagem."></textarea>
+              <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Por favor, digite uma mensagem."></textarea>
               <p class="help-block text-danger"></p>
             </div>
           </div>
